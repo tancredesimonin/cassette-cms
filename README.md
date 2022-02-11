@@ -4,6 +4,7 @@
 
 - SEO-packed [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-seo)
 - easy navigation [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-navigation)
+- SiteMap generation [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-sitemap)
 
 ### `develop`
 
