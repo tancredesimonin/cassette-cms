@@ -9,11 +9,11 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.7",
-    "@strapi/plugin-users-permissions": "4.0.7",
     "@strapi/plugin-i18n": "4.0.7",
+    "@strapi/plugin-seo": "^1.6.3",
+    "@strapi/plugin-users-permissions": "4.0.7",
+    "@strapi/strapi": "4.0.7",
     "sqlite3": "5.0.2"
   },
   "author": {
