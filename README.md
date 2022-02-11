@@ -2,7 +2,8 @@
 
 ### 💎 Features
 
-- SEO friendly with dedicated [plugin](https://github.com/strapi/strapi-plugin-seo)
+- SEO-packed [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-seo)
+- easy navigation [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-navigation)
 
 ### `develop`
 
