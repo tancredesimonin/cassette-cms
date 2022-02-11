@@ -4,12 +4,15 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
+    "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "gen:sdk:tools": "swagger-typescript-api --axios --route-types -p ./extensions/documentation/documentation/1.0.0/full_documentation.json -o ../qtor_website/src/sdk -n api.ts"
   },
   "dependencies": {
+    "@strapi/plugin-documentation": "^4.0.7",
     "@strapi/plugin-i18n": "4.0.7",
     "@strapi/plugin-seo": "^1.6.3",
     "@strapi/plugin-users-permissions": "4.0.7",
@@ -28,5 +31,8 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "swagger-typescript-api": "^9.3.1"
+  }
 }
