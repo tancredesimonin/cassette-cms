@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/page-home": {
+    "/page500": {
       "get": {
         "responses": {
           "200": {
@@ -20,6 +20,9 @@
                             "type": "object",
                             "properties": {
                               "h1": {
+                                "type": "string"
+                              },
+                              "message": {
                                 "type": "string"
                               },
                               "seo": {
@@ -1136,6 +1139,9 @@
                                             "h1": {
                                               "type": "string"
                                             },
+                                            "message": {
+                                              "type": "string"
+                                            },
                                             "seo": {
                                               "type": "object",
                                               "properties": {
@@ -2201,7 +2207,7 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page500"
         ],
         "parameters": [
           {
@@ -2304,6 +2310,9 @@
                           "type": "object",
                           "properties": {
                             "h1": {
+                              "type": "string"
+                            },
+                            "message": {
                               "type": "string"
                             },
                             "seo": {
@@ -3420,6 +3429,9 @@
                                           "h1": {
                                             "type": "string"
                                           },
+                                          "message": {
+                                            "type": "string"
+                                          },
                                           "seo": {
                                             "type": "object",
                                             "properties": {
@@ -4464,7 +4476,7 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page500"
         ],
         "parameters": [],
         "requestBody": {
@@ -4477,6 +4489,9 @@
                     "type": "object",
                     "properties": {
                       "h1": {
+                        "type": "string"
+                      },
+                      "message": {
                         "type": "string"
                       },
                       "seo": {
@@ -4770,13 +4785,13 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page500"
         ],
         "parameters": [],
         "requestBody": {}
       }
     },
-    "/page-home/localizations": {
+    "/page-500/localizations": {
       "post": {
         "responses": {
           "200": {
@@ -4794,6 +4809,9 @@
                           "type": "object",
                           "properties": {
                             "h1": {
+                              "type": "string"
+                            },
+                            "message": {
                               "type": "string"
                             },
                             "seo": {
@@ -5910,6 +5928,9 @@
                                           "h1": {
                                             "type": "string"
                                           },
+                                          "message": {
+                                            "type": "string"
+                                          },
                                           "seo": {
                                             "type": "object",
                                             "properties": {
@@ -6954,7 +6975,7 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page500"
         ],
         "parameters": [],
         "requestBody": {
@@ -6967,6 +6988,9 @@
                     "type": "object",
                     "properties": {
                       "h1": {
+                        "type": "string"
+                      },
+                      "message": {
                         "type": "string"
                       },
                       "seo": {

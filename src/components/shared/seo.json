@@ -49,6 +49,10 @@
     },
     "canonicalURL": {
       "type": "string"
+    },
+    "noIndex": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
