@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "page_homes",
+  "collectionName": "page_bios",
   "info": {
-    "singularName": "page-home",
-    "pluralName": "page-homes",
-    "displayName": "PageHome",
+    "singularName": "page-bio",
+    "pluralName": "page-bios",
+    "displayName": "pageBio",
     "description": ""
   },
   "options": {

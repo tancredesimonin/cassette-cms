@@ -1,6 +1,6 @@
 {
   "paths": {
-    "/page-home": {
+    "/page-bio": {
       "get": {
         "responses": {
           "200": {
@@ -2243,7 +2243,7 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page-bio"
         ],
         "parameters": [
           {
@@ -4548,7 +4548,7 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page-bio"
         ],
         "parameters": [],
         "requestBody": {
@@ -4872,13 +4872,13 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page-bio"
         ],
         "parameters": [],
         "requestBody": {}
       }
     },
-    "/page-home/localizations": {
+    "/page-bio/localizations": {
       "post": {
         "responses": {
           "200": {
@@ -7098,7 +7098,7 @@
           }
         },
         "tags": [
-          "Page-home"
+          "Page-bio"
         ],
         "parameters": [],
         "requestBody": {
