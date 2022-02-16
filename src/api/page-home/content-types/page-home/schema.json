@@ -42,7 +42,8 @@
       },
       "type": "dynamiczone",
       "components": [
-        "blocks.paragraph"
+        "blocks.paragraph",
+        "blocks.album"
       ]
     }
   }
