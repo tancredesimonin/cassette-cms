@@ -61,7 +61,8 @@
       "type": "dynamiczone",
       "components": [
         "blocks.paragraph",
-        "blocks.release"
+        "blocks.release",
+        "blocks.track"
       ]
     },
     "slug": {

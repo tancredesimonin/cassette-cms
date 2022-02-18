@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_tracks",
+  "info": {
+    "displayName": "Track",
+    "icon": "music"
+  },
+  "options": {},
+  "attributes": {
+    "track": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::track.track"
+    }
+  }
+}
