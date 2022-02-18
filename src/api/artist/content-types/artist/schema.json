@@ -4,7 +4,8 @@
   "info": {
     "singularName": "artist",
     "pluralName": "artists",
-    "displayName": "artist"
+    "displayName": "artist",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,13 +25,14 @@
       "type": "string"
     },
     "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -56,6 +58,18 @@
       "relation": "oneToMany",
       "target": "api::track.track",
       "mappedBy": "artist"
+    },
+    "releases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::release.release",
+      "mappedBy": "artist"
+    },
+    "presence": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::release.release",
+      "inversedBy": "contributors"
     }
   }
 }

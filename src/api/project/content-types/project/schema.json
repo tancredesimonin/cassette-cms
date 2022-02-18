@@ -27,7 +27,7 @@
     "public": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "boolean",
@@ -46,7 +46,7 @@
     "password": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "password",
@@ -61,8 +61,13 @@
       "type": "dynamiczone",
       "components": [
         "blocks.paragraph",
-        "blocks.album"
+        "blocks.release"
       ]
+    },
+    "slug": {
+      "pluginOptions": {},
+      "type": "uid",
+      "targetField": "name"
     }
   }
 }

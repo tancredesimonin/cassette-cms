@@ -25,14 +25,8 @@
     "duration": {
       "type": "integer"
     },
-    "albumPosition": {
+    "releasePosition": {
       "type": "integer"
-    },
-    "album": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::album.album",
-      "inversedBy": "tracks"
     },
     "contributors": {
       "type": "relation",
@@ -50,6 +44,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::genre.genre",
+      "inversedBy": "tracks"
+    },
+    "release": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::release.release",
       "inversedBy": "tracks"
     }
   }

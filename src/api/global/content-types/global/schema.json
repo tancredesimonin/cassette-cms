@@ -4,7 +4,8 @@
   "info": {
     "singularName": "global",
     "pluralName": "globals",
-    "displayName": "global"
+    "displayName": "global",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -22,6 +23,17 @@
         }
       },
       "type": "string",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo",
       "required": true
     }
   }

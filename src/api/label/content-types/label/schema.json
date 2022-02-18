@@ -22,6 +22,12 @@
         }
       },
       "type": "string"
+    },
+    "releases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::release.release",
+      "mappedBy": "label"
     }
   }
 }
