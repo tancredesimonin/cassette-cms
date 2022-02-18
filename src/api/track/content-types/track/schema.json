@@ -51,6 +51,15 @@
       "relation": "manyToOne",
       "target": "api::release.release",
       "inversedBy": "tracks"
+    },
+    "file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
