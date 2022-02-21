@@ -20,6 +20,7 @@ If you're interested, as a contributor or not, please email me at tancrede-simon
 ### 👩‍💻 Developer Experience
 
 - Swagger Documentation auto-generated [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-documentation)
+- Custom S3 Provider [plugin documentation](https://github.com/zoomoid/strapi-provider-upload-aws-s3-advanced)
 
 ### `develop`
 
@@ -60,6 +61,8 @@ npm install
 # or
 yarn install
 ```
+
+
 
 
 
