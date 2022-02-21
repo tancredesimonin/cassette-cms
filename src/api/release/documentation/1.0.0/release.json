@@ -2022,29 +2022,6 @@
                                                               }
                                                             }
                                                           },
-                                                          "localizations": {
-                                                            "type": "object",
-                                                            "properties": {
-                                                              "data": {
-                                                                "type": "array",
-                                                                "items": {
-                                                                  "type": "object",
-                                                                  "properties": {
-                                                                    "id": {
-                                                                      "type": "string"
-                                                                    },
-                                                                    "attributes": {
-                                                                      "type": "object",
-                                                                      "properties": {}
-                                                                    }
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          },
-                                                          "locale": {
-                                                            "type": "string"
-                                                          },
                                                           "sitemap_exclude": {
                                                             "type": "boolean"
                                                           }
@@ -4905,29 +4882,6 @@
                                                               }
                                                             }
                                                           }
-                                                        },
-                                                        "localizations": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "data": {
-                                                              "type": "array",
-                                                              "items": {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                  "id": {
-                                                                    "type": "string"
-                                                                  },
-                                                                  "attributes": {
-                                                                    "type": "object",
-                                                                    "properties": {}
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        },
-                                                        "locale": {
-                                                          "type": "string"
                                                         },
                                                         "sitemap_exclude": {
                                                           "type": "boolean"
@@ -7821,29 +7775,6 @@
                                                             }
                                                           }
                                                         },
-                                                        "localizations": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "data": {
-                                                              "type": "array",
-                                                              "items": {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                  "id": {
-                                                                    "type": "string"
-                                                                  },
-                                                                  "attributes": {
-                                                                    "type": "object",
-                                                                    "properties": {}
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        },
-                                                        "locale": {
-                                                          "type": "string"
-                                                        },
                                                         "sitemap_exclude": {
                                                           "type": "boolean"
                                                         }
@@ -10613,29 +10544,6 @@
                                                               }
                                                             }
                                                           }
-                                                        },
-                                                        "localizations": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "data": {
-                                                              "type": "array",
-                                                              "items": {
-                                                                "type": "object",
-                                                                "properties": {
-                                                                  "id": {
-                                                                    "type": "string"
-                                                                  },
-                                                                  "attributes": {
-                                                                    "type": "object",
-                                                                    "properties": {}
-                                                                  }
-                                                                }
-                                                              }
-                                                            }
-                                                          }
-                                                        },
-                                                        "locale": {
-                                                          "type": "string"
                                                         },
                                                         "sitemap_exclude": {
                                                           "type": "boolean"
