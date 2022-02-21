@@ -2967,6 +2967,9 @@
                               "slug": {
                                 "type": "string"
                               },
+                              "password": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3914,6 +3917,9 @@
                                               }
                                             },
                                             "slug": {
+                                              "type": "string"
+                                            },
+                                            "password": {
                                               "type": "string"
                                             },
                                             "createdAt": {
@@ -7231,6 +7237,9 @@
                             "slug": {
                               "type": "string"
                             },
+                            "password": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -8180,6 +8189,9 @@
                                           "slug": {
                                             "type": "string"
                                           },
+                                          "password": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -8512,11 +8524,6 @@
                           }
                         }
                       },
-                      "password": {
-                        "type": "string",
-                        "format": "password",
-                        "example": "*******"
-                      },
                       "blocks": {
                         "type": "array",
                         "items": {
@@ -8577,6 +8584,9 @@
                         }
                       },
                       "slug": {
+                        "type": "string"
+                      },
+                      "password": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -11607,6 +11617,9 @@
                             "slug": {
                               "type": "string"
                             },
+                            "password": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -12554,6 +12567,9 @@
                                             }
                                           },
                                           "slug": {
+                                            "type": "string"
+                                          },
+                                          "password": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -15780,6 +15796,9 @@
                             "slug": {
                               "type": "string"
                             },
+                            "password": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -16729,6 +16748,9 @@
                                           "slug": {
                                             "type": "string"
                                           },
+                                          "password": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -17072,11 +17094,6 @@
                           }
                         }
                       },
-                      "password": {
-                        "type": "string",
-                        "format": "password",
-                        "example": "*******"
-                      },
                       "blocks": {
                         "type": "array",
                         "items": {
@@ -17137,6 +17154,9 @@
                         }
                       },
                       "slug": {
+                        "type": "string"
+                      },
+                      "password": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -20342,6 +20362,9 @@
                             "slug": {
                               "type": "string"
                             },
+                            "password": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -21291,6 +21314,9 @@
                                           "slug": {
                                             "type": "string"
                                           },
+                                          "password": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -21634,11 +21660,6 @@
                           }
                         }
                       },
-                      "password": {
-                        "type": "string",
-                        "format": "password",
-                        "example": "*******"
-                      },
                       "blocks": {
                         "type": "array",
                         "items": {
@@ -21699,6 +21720,9 @@
                         }
                       },
                       "slug": {
+                        "type": "string"
+                      },
+                      "password": {
                         "type": "string"
                       },
                       "createdAt": {
