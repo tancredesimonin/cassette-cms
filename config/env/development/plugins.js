@@ -22,12 +22,12 @@ module.exports = ({ env }) => ({
         providerOptions: {
           accessKeyId: env("S3_ACCESS_KEY_ID"),
           secretAccessKey: env("S3_ACCESS_SECRET"),
-          endpoint: env('S3_ENDPOINT'),
+          endpoint: env('S3_BUCKET_ENDPOINT'),
           region: env("S3_REGION"),
           params: {
             bucket: env("S3_BUCKET"),
           },
-          baseUrl: env("CDN_BASE_URL"), // e.g. https://cdn.example.com, this is stored in strapi's database to point to the file
+          // baseUrl: env("CDN_BASE_URL"), // e.g. https://cdn.example.com, this is stored in strapi's database to point to the file
           // prefix: env("S3_BUCKET_PREFIX"), // e.g. strapi-assets, note the missing slash at the start
         },
       },

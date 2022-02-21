@@ -4,9 +4,9 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'sqlite',
     connection: {
-      filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '../../.tmp/data.db')),
+      filename: path.join(__dirname, '..', env('LOCAL_DATABASE_FILENAME', '../../.tmp/data.db')),
     },
     useNullAsDefault: true,
-    debug: true,
+    debug: env('LOCAL_DATABASE_DEBUG', false),
   },
 });
