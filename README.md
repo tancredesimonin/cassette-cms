@@ -1,7 +1,18 @@
-# 🚀 Getting started with Strapi
+# 📼 Cassette CMS
+
+This repository, Cassette CMS is the (no joke?) CMS part of the fullstack Cassette project.
+*The frontend repository is on the way...*
+
+Cassette is a fullstack project to be the ultimate website for artists, bands and DJ's.
+
+## WORK IN PROGRESS
+
+This project is actively maintained and still in WIP and the v.1.0 will come max **mid-march.**
+If you're interested, as a contributor or not, please email me at tancrede-simonin@live.fr.
 
 ### 💎 Features
 
+- Built with the amazing [Strapi](https://strapi.io)
 - SEO-packed [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-seo)
 - Easy navigation [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-navigation)
 - SiteMap generation [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-sitemap)
@@ -9,7 +20,6 @@
 ### 👩‍💻 Developer Experience
 
 - Swagger Documentation auto-generated [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-documentation)
-- One-command Typescript "SDK" export for your frontend with all types [documentation](https://github.com/acacode/swagger-typescript-api)
 
 ### `develop`
 
@@ -41,16 +51,6 @@ npm run build
 yarn build
 ```
 
-### `sdk`
-
-Generate your 'sdk' for your frontend. *You should have followed the 'First installation' setup.*
-
-```
-npm run sdk
-# or
-yarn sdk
-```
-
 ## First installation
 
 1. Install dependencies
@@ -61,11 +61,14 @@ npm install
 yarn install
 ```
 
-2. Configuration
-
-   - Configure the `sdk` command in package.json to fit your folder structure, where you want to export the 'sdk'
 
 
 ## ⚙️ Deployment
+
+## LICENSE
+
+This project is licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0).
+
+The goal of this licensing is to allow almost anything in usage, even commercial, as long as the derivatives use the same license.
 
 

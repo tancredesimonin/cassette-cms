@@ -1,15 +1,14 @@
 {
-  "name": "qtor-cms",
-  "private": true,
+  "name": "cassette-cms",
+  "private": false,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "The ultimate CMS packed for music artists, bands, DJs",
   "scripts": {
     "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "sdk": "swagger-typescript-api --no-client --route-types -p ./src/extensions/documentation/documentation/1.0.0/full_documentation.json -o ../qtor_website/lib/api -n api.ts"
+    "strapi": "strapi"
   },
   "dependencies": {
     "@strapi/plugin-documentation": "^4.1.0",
@@ -23,7 +22,7 @@
     "strapi-provider-upload-aws-s3-advanced": "^4.0.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "@tancredesimonin"
   },
   "strapi": {
     "uuid": "3375e50c-fcbf-467a-8c46-91a40c9b6f2f"
@@ -32,8 +31,5 @@
     "node": ">=12.x.x <=16.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "swagger-typescript-api": "^9.3.1"
-  }
+  "license": "GPL-3.0"
 }
