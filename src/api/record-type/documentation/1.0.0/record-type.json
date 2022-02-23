@@ -396,9 +396,6 @@
                                             },
                                             "locale": {
                                               "type": "string"
-                                            },
-                                            "sitemap_exclude": {
-                                              "type": "boolean"
                                             }
                                           }
                                         }
@@ -409,9 +406,6 @@
                               },
                               "locale": {
                                 "type": "string"
-                              },
-                              "sitemap_exclude": {
-                                "type": "boolean"
                               }
                             }
                           }
@@ -1072,9 +1066,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -1085,9 +1076,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -1309,9 +1297,6 @@
                       },
                       "locale": {
                         "type": "string"
-                      },
-                      "sitemap_exclude": {
-                        "type": "boolean"
                       }
                     }
                   }
@@ -1716,9 +1701,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -1729,9 +1711,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -2301,9 +2280,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -2314,9 +2290,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -2549,9 +2522,6 @@
                       },
                       "locale": {
                         "type": "string"
-                      },
-                      "sitemap_exclude": {
-                        "type": "boolean"
                       }
                     }
                   }
@@ -3131,9 +3101,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -3144,9 +3111,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -3379,9 +3343,6 @@
                       },
                       "locale": {
                         "type": "string"
-                      },
-                      "sitemap_exclude": {
-                        "type": "boolean"
                       }
                     }
                   }

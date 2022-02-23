@@ -1,0 +1,91 @@
+{
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "permissions": [
+    {
+      "action": "api::artist.artist.find"
+    },
+    {
+      "action": "api::artist.artist.findOne"
+    },
+    {
+      "action": "api::genre.genre.find"
+    },
+    {
+      "action": "api::genre.genre.findOne"
+    },
+    {
+      "action": "api::global.global.find"
+    },
+    {
+      "action": "api::label.label.find"
+    },
+    {
+      "action": "api::label.label.findOne"
+    },
+    {
+      "action": "api::page-bio.page-bio.find"
+    },
+    {
+      "action": "api::page-home.page-home.find"
+    },
+    {
+      "action": "api::page404.page404.find"
+    },
+    {
+      "action": "api::page500.page500.find"
+    },
+    {
+      "action": "api::project.project.find"
+    },
+    {
+      "action": "api::project.project.findOne"
+    },
+    {
+      "action": "api::record-type.record-type.find"
+    },
+    {
+      "action": "api::record-type.record-type.findOne"
+    },
+    {
+      "action": "api::release.release.find"
+    },
+    {
+      "action": "api::release.release.findOne"
+    },
+    {
+      "action": "api::track.track.find"
+    },
+    {
+      "action": "api::track.track.findOne"
+    },
+    {
+      "action": "api::website.website.find"
+    },
+    {
+      "action": "api::website.website.findOne"
+    },
+    {
+      "action": "plugin::i18n.locales.listLocales"
+    },
+    {
+      "action": "plugin::upload.content-api.find"
+    },
+    {
+      "action": "plugin::upload.content-api.findOne"
+    },
+    {
+      "action": "plugin::users-permissions.auth.callback"
+    },
+    {
+      "action": "plugin::users-permissions.auth.connect"
+    },
+    {
+      "action": "plugin::users-permissions.auth.register"
+    },
+    {
+      "action": "plugin::users-permissions.user.me"
+    }
+  ]
+}

@@ -14,13 +14,12 @@ If you're interested, as a contributor or not, please email me at tancrede-simon
 
 - Built with the amazing [Strapi](https://strapi.io)
 - SEO-packed [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-seo)
-- Easy navigation [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-navigation)
-- SiteMap generation [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-sitemap)
-
 ### 👩‍💻 Developer Experience
 
 - Swagger Documentation auto-generated [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-documentation)
 - Custom S3 Provider [plugin documentation](https://github.com/zoomoid/strapi-provider-upload-aws-s3-advanced)
+- Config syncro between environments [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-config-sync)
+- Automatic Entity relationship chart [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-entity-relationship-chart)
 
 ### `develop`
 
