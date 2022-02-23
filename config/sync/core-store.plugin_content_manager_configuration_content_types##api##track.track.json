@@ -1,0 +1,246 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::track.track",
+  "value": {
+    "uid": "api::track.track",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "releaseDate": {
+        "edit": {
+          "label": "releaseDate",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "releaseDate",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bpm": {
+        "edit": {
+          "label": "bpm",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bpm",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "duration": {
+        "edit": {
+          "label": "duration",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "duration",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "releasePosition": {
+        "edit": {
+          "label": "releasePosition",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "releasePosition",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contributors": {
+        "edit": {
+          "label": "contributors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "contributors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "artist": {
+        "edit": {
+          "label": "artist",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "artist",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "genres": {
+        "edit": {
+          "label": "genres",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "genres",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "release": {
+        "edit": {
+          "label": "release",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "release",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "file": {
+        "edit": {
+          "label": "file",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "file",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "releaseDate",
+        "bpm"
+      ],
+      "editRelations": [
+        "contributors",
+        "artist",
+        "genres",
+        "release"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "releaseDate",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "bpm",
+            "size": 4
+          },
+          {
+            "name": "duration",
+            "size": 4
+          },
+          {
+            "name": "releasePosition",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "file",
+            "size": 6
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -400,9 +400,6 @@
                                                     }
                                                   }
                                                 }
-                                              },
-                                              "sitemap_exclude": {
-                                                "type": "boolean"
                                               }
                                             }
                                           }
@@ -794,9 +791,6 @@
                                                           }
                                                         }
                                                       }
-                                                    },
-                                                    "sitemap_exclude": {
-                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -1237,9 +1231,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -1658,9 +1649,6 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
-                                                                                            },
-                                                                                            "sitemap_exclude": {
-                                                                                              "type": "boolean"
                                                                                             }
                                                                                           }
                                                                                         }
@@ -2070,9 +2058,6 @@
                                                                                 },
                                                                                 "locale": {
                                                                                   "type": "string"
-                                                                                },
-                                                                                "sitemap_exclude": {
-                                                                                  "type": "boolean"
                                                                                 }
                                                                               }
                                                                             }
@@ -2180,9 +2165,6 @@
                                                                                       }
                                                                                     }
                                                                                   }
-                                                                                },
-                                                                                "sitemap_exclude": {
-                                                                                  "type": "boolean"
                                                                                 }
                                                                               }
                                                                             }
@@ -2571,9 +2553,6 @@
                                                                                     }
                                                                                   }
                                                                                 }
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -2626,9 +2605,6 @@
                                                                         }
                                                                       }
                                                                     }
-                                                                  },
-                                                                  "sitemap_exclude": {
-                                                                    "type": "boolean"
                                                                   }
                                                                 }
                                                               }
@@ -2716,9 +2692,6 @@
                                                                 },
                                                                 "locale": {
                                                                   "type": "string"
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -2866,9 +2839,6 @@
                                                                 },
                                                                 "locale": {
                                                                   "type": "string"
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -2921,9 +2891,6 @@
                                                           }
                                                         }
                                                       }
-                                                    },
-                                                    "sitemap_exclude": {
-                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -2964,10 +2931,10 @@
                                   ]
                                 }
                               },
-                              "slug": {
+                              "password": {
                                 "type": "string"
                               },
-                              "password": {
+                              "slug": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -3411,9 +3378,6 @@
                                                                   }
                                                                 }
                                                               }
-                                                            },
-                                                            "sitemap_exclude": {
-                                                              "type": "boolean"
                                                             }
                                                           }
                                                         }
@@ -3805,9 +3769,6 @@
                                                                         }
                                                                       }
                                                                     }
-                                                                  },
-                                                                  "sitemap_exclude": {
-                                                                    "type": "boolean"
                                                                   }
                                                                 }
                                                               }
@@ -3916,10 +3877,10 @@
                                                 ]
                                               }
                                             },
-                                            "slug": {
+                                            "password": {
                                               "type": "string"
                                             },
-                                            "password": {
+                                            "slug": {
                                               "type": "string"
                                             },
                                             "createdAt": {
@@ -3990,9 +3951,6 @@
                                             },
                                             "locale": {
                                               "type": "string"
-                                            },
-                                            "sitemap_exclude": {
-                                              "type": "boolean"
                                             }
                                           }
                                         }
@@ -4003,9 +3961,6 @@
                               },
                               "locale": {
                                 "type": "string"
-                              },
-                              "sitemap_exclude": {
-                                "type": "boolean"
                               }
                             }
                           }
@@ -4670,9 +4625,6 @@
                                                   }
                                                 }
                                               }
-                                            },
-                                            "sitemap_exclude": {
-                                              "type": "boolean"
                                             }
                                           }
                                         }
@@ -5064,9 +5016,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -5507,9 +5456,6 @@
                                                                     }
                                                                   }
                                                                 }
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -5928,9 +5874,6 @@
                                                                                                 }
                                                                                               }
                                                                                             }
-                                                                                          },
-                                                                                          "sitemap_exclude": {
-                                                                                            "type": "boolean"
                                                                                           }
                                                                                         }
                                                                                       }
@@ -6340,9 +6283,6 @@
                                                                               },
                                                                               "locale": {
                                                                                 "type": "string"
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -6450,9 +6390,6 @@
                                                                                     }
                                                                                   }
                                                                                 }
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -6841,9 +6778,6 @@
                                                                                   }
                                                                                 }
                                                                               }
-                                                                            },
-                                                                            "sitemap_exclude": {
-                                                                              "type": "boolean"
                                                                             }
                                                                           }
                                                                         }
@@ -6896,9 +6830,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -6986,9 +6917,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -7136,9 +7064,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -7191,9 +7116,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -7234,10 +7156,10 @@
                                 ]
                               }
                             },
-                            "slug": {
+                            "password": {
                               "type": "string"
                             },
-                            "password": {
+                            "slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -7681,9 +7603,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          },
-                                                          "sitemap_exclude": {
-                                                            "type": "boolean"
                                                           }
                                                         }
                                                       }
@@ -8075,9 +7994,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -8186,10 +8102,10 @@
                                               ]
                                             }
                                           },
-                                          "slug": {
+                                          "password": {
                                             "type": "string"
                                           },
-                                          "password": {
+                                          "slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -8260,9 +8176,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -8273,9 +8186,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -8583,10 +8493,10 @@
                           ]
                         }
                       },
-                      "slug": {
+                      "password": {
                         "type": "string"
                       },
-                      "password": {
+                      "slug": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -8639,9 +8549,6 @@
                       },
                       "locale": {
                         "type": "string"
-                      },
-                      "sitemap_exclude": {
-                        "type": "boolean"
                       }
                     }
                   }
@@ -9050,9 +8957,6 @@
                                                   }
                                                 }
                                               }
-                                            },
-                                            "sitemap_exclude": {
-                                              "type": "boolean"
                                             }
                                           }
                                         }
@@ -9444,9 +9348,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -9887,9 +9788,6 @@
                                                                     }
                                                                   }
                                                                 }
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -10308,9 +10206,6 @@
                                                                                                 }
                                                                                               }
                                                                                             }
-                                                                                          },
-                                                                                          "sitemap_exclude": {
-                                                                                            "type": "boolean"
                                                                                           }
                                                                                         }
                                                                                       }
@@ -10720,9 +10615,6 @@
                                                                               },
                                                                               "locale": {
                                                                                 "type": "string"
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -10830,9 +10722,6 @@
                                                                                     }
                                                                                   }
                                                                                 }
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -11221,9 +11110,6 @@
                                                                                   }
                                                                                 }
                                                                               }
-                                                                            },
-                                                                            "sitemap_exclude": {
-                                                                              "type": "boolean"
                                                                             }
                                                                           }
                                                                         }
@@ -11276,9 +11162,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -11366,9 +11249,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -11516,9 +11396,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -11571,9 +11448,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -11614,10 +11488,10 @@
                                 ]
                               }
                             },
-                            "slug": {
+                            "password": {
                               "type": "string"
                             },
-                            "password": {
+                            "slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -12061,9 +11935,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          },
-                                                          "sitemap_exclude": {
-                                                            "type": "boolean"
                                                           }
                                                         }
                                                       }
@@ -12455,9 +12326,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -12566,10 +12434,10 @@
                                               ]
                                             }
                                           },
-                                          "slug": {
+                                          "password": {
                                             "type": "string"
                                           },
-                                          "password": {
+                                          "slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -12640,9 +12508,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -12653,9 +12518,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -13229,9 +13091,6 @@
                                                   }
                                                 }
                                               }
-                                            },
-                                            "sitemap_exclude": {
-                                              "type": "boolean"
                                             }
                                           }
                                         }
@@ -13623,9 +13482,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -14066,9 +13922,6 @@
                                                                     }
                                                                   }
                                                                 }
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -14487,9 +14340,6 @@
                                                                                                 }
                                                                                               }
                                                                                             }
-                                                                                          },
-                                                                                          "sitemap_exclude": {
-                                                                                            "type": "boolean"
                                                                                           }
                                                                                         }
                                                                                       }
@@ -14899,9 +14749,6 @@
                                                                               },
                                                                               "locale": {
                                                                                 "type": "string"
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -15009,9 +14856,6 @@
                                                                                     }
                                                                                   }
                                                                                 }
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -15400,9 +15244,6 @@
                                                                                   }
                                                                                 }
                                                                               }
-                                                                            },
-                                                                            "sitemap_exclude": {
-                                                                              "type": "boolean"
                                                                             }
                                                                           }
                                                                         }
@@ -15455,9 +15296,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -15545,9 +15383,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -15695,9 +15530,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -15750,9 +15582,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -15793,10 +15622,10 @@
                                 ]
                               }
                             },
-                            "slug": {
+                            "password": {
                               "type": "string"
                             },
-                            "password": {
+                            "slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -16240,9 +16069,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          },
-                                                          "sitemap_exclude": {
-                                                            "type": "boolean"
                                                           }
                                                         }
                                                       }
@@ -16634,9 +16460,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -16745,10 +16568,10 @@
                                               ]
                                             }
                                           },
-                                          "slug": {
+                                          "password": {
                                             "type": "string"
                                           },
-                                          "password": {
+                                          "slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -16819,9 +16642,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -16832,9 +16652,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -17153,10 +16970,10 @@
                           ]
                         }
                       },
-                      "slug": {
+                      "password": {
                         "type": "string"
                       },
-                      "password": {
+                      "slug": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -17209,9 +17026,6 @@
                       },
                       "locale": {
                         "type": "string"
-                      },
-                      "sitemap_exclude": {
-                        "type": "boolean"
                       }
                     }
                   }
@@ -17795,9 +17609,6 @@
                                                   }
                                                 }
                                               }
-                                            },
-                                            "sitemap_exclude": {
-                                              "type": "boolean"
                                             }
                                           }
                                         }
@@ -18189,9 +18000,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -18632,9 +18440,6 @@
                                                                     }
                                                                   }
                                                                 }
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -19053,9 +18858,6 @@
                                                                                                 }
                                                                                               }
                                                                                             }
-                                                                                          },
-                                                                                          "sitemap_exclude": {
-                                                                                            "type": "boolean"
                                                                                           }
                                                                                         }
                                                                                       }
@@ -19465,9 +19267,6 @@
                                                                               },
                                                                               "locale": {
                                                                                 "type": "string"
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -19575,9 +19374,6 @@
                                                                                     }
                                                                                   }
                                                                                 }
-                                                                              },
-                                                                              "sitemap_exclude": {
-                                                                                "type": "boolean"
                                                                               }
                                                                             }
                                                                           }
@@ -19966,9 +19762,6 @@
                                                                                   }
                                                                                 }
                                                                               }
-                                                                            },
-                                                                            "sitemap_exclude": {
-                                                                              "type": "boolean"
                                                                             }
                                                                           }
                                                                         }
@@ -20021,9 +19814,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -20111,9 +19901,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -20261,9 +20048,6 @@
                                                               },
                                                               "locale": {
                                                                 "type": "string"
-                                                              },
-                                                              "sitemap_exclude": {
-                                                                "type": "boolean"
                                                               }
                                                             }
                                                           }
@@ -20316,9 +20100,6 @@
                                                         }
                                                       }
                                                     }
-                                                  },
-                                                  "sitemap_exclude": {
-                                                    "type": "boolean"
                                                   }
                                                 }
                                               }
@@ -20359,10 +20140,10 @@
                                 ]
                               }
                             },
-                            "slug": {
+                            "password": {
                               "type": "string"
                             },
-                            "password": {
+                            "slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -20806,9 +20587,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          },
-                                                          "sitemap_exclude": {
-                                                            "type": "boolean"
                                                           }
                                                         }
                                                       }
@@ -21200,9 +20978,6 @@
                                                                       }
                                                                     }
                                                                   }
-                                                                },
-                                                                "sitemap_exclude": {
-                                                                  "type": "boolean"
                                                                 }
                                                               }
                                                             }
@@ -21311,10 +21086,10 @@
                                               ]
                                             }
                                           },
-                                          "slug": {
+                                          "password": {
                                             "type": "string"
                                           },
-                                          "password": {
+                                          "slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -21385,9 +21160,6 @@
                                           },
                                           "locale": {
                                             "type": "string"
-                                          },
-                                          "sitemap_exclude": {
-                                            "type": "boolean"
                                           }
                                         }
                                       }
@@ -21398,9 +21170,6 @@
                             },
                             "locale": {
                               "type": "string"
-                            },
-                            "sitemap_exclude": {
-                              "type": "boolean"
                             }
                           }
                         }
@@ -21719,10 +21488,10 @@
                           ]
                         }
                       },
-                      "slug": {
+                      "password": {
                         "type": "string"
                       },
-                      "password": {
+                      "slug": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -21775,9 +21544,6 @@
                       },
                       "locale": {
                         "type": "string"
-                      },
-                      "sitemap_exclude": {
-                        "type": "boolean"
                       }
                     }
                   }

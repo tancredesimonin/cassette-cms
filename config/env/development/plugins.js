@@ -3,19 +3,6 @@ module.exports = ({ env }) => ({
     seo: {
       enabled: true,
     },
-    navigation: {
-      enabled: true,
-      config: {
-          // additionalFields: ['audience'],
-          contentTypes: ['api::page-home.page-home'],
-          contentTypesNameFields: {
-              'api::page-home.page-home': ['h1']
-          },
-          allowedLevels: 2,
-          // graphQL configuration comes here
-          // gql: {...},
-      }
-    },
     upload: {
       config: {
         provider: "strapi-provider-upload-aws-s3-advanced",
@@ -32,5 +19,17 @@ module.exports = ({ env }) => ({
         },
       },
     },
-    // ...
+    'config-sync': {
+      enabled: true,
+      config: {
+        syncDir: "config/sync/",
+        minify: false,
+        importOnBootstrap: false,
+        customTypes: [],
+        excludedTypes: [],
+        excludedConfig: [
+          "core-store.plugin_users-permissions_grant"
+        ],
+      },
+    },
   });
