@@ -71,6 +71,6 @@ yarn install
 
 This project is licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0).
 
-The goal of this licensing is to allow almost anything in usage, even commercial, as long as the derivatives use the same license.
+The goal of this licensing is to allow almost anything in usage, even commercial, as long as the derivatives use the same license and is open-sourced.
 
 
