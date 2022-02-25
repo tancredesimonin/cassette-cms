@@ -62,6 +62,21 @@
           "sortable": false
         }
       },
+      "website": {
+        "edit": {
+          "label": "website",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "website",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -98,7 +113,6 @@
         "seo",
         "createdAt"
       ],
-      "editRelations": [],
       "edit": [
         [
           {
@@ -118,6 +132,9 @@
             "size": 12
           }
         ]
+      ],
+      "editRelations": [
+        "website"
       ]
     }
   },

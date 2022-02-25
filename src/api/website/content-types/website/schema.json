@@ -88,6 +88,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::artist.artist",
+      "mappedBy": "website"
+    },
+    "pageHome": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::page-home.page-home",
       "inversedBy": "website"
     }
   }

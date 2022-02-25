@@ -152,6 +152,21 @@
           "sortable": true
         }
       },
+      "projects": {
+        "edit": {
+          "label": "projects",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "projects",
+          "searchable": false,
+          "sortable": false
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -212,7 +227,8 @@
         "releases",
         "presence",
         "bio",
-        "website"
+        "website",
+        "projects"
       ]
     }
   },

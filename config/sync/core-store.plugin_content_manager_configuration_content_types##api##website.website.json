@@ -150,6 +150,21 @@
           "sortable": true
         }
       },
+      "pageHome": {
+        "edit": {
+          "label": "pageHome",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "pageHome",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -220,7 +235,8 @@
         "adminUsers",
         "locales",
         "defaultLocale",
-        "artist"
+        "artist",
+        "pageHome"
       ]
     }
   },

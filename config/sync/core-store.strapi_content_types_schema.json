@@ -1432,6 +1432,11 @@
           "target": "api::website.website",
           "inversedBy": "artist"
         },
+        "projects": {
+          "type": "relation",
+          "relation": "oneToMany",
+          "target": "api::project.project"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -1564,6 +1569,11 @@
             "relation": "oneToOne",
             "target": "api::website.website",
             "inversedBy": "artist"
+          },
+          "projects": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::project.project"
           }
         },
         "kind": "collectionType"
@@ -2161,6 +2171,12 @@
           },
           "component": "shared.seo"
         },
+        "website": {
+          "type": "relation",
+          "relation": "oneToOne",
+          "target": "api::website.website",
+          "inversedBy": "pageHome"
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -2256,6 +2272,12 @@
               }
             },
             "component": "shared.seo"
+          },
+          "website": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::website.website",
+            "inversedBy": "pageHome"
           }
         },
         "kind": "collectionType"
@@ -2571,7 +2593,7 @@
       "info": {
         "singularName": "project",
         "pluralName": "projects",
-        "displayName": "PageProject",
+        "displayName": "Project",
         "description": ""
       },
       "options": {
@@ -2694,7 +2716,7 @@
         "info": {
           "singularName": "project",
           "pluralName": "projects",
-          "displayName": "PageProject",
+          "displayName": "Project",
           "description": ""
         },
         "options": {
@@ -2928,7 +2950,7 @@
           "type": "relation",
           "relation": "manyToMany",
           "target": "api::artist.artist",
-          "inversedBy": "presence"
+          "mappedBy": "presence"
         },
         "label": {
           "type": "relation",
@@ -3017,7 +3039,7 @@
             "type": "relation",
             "relation": "manyToMany",
             "target": "api::artist.artist",
-            "inversedBy": "presence"
+            "mappedBy": "presence"
           },
           "label": {
             "type": "relation",
@@ -3297,6 +3319,12 @@
           "type": "relation",
           "relation": "oneToOne",
           "target": "api::artist.artist",
+          "mappedBy": "website"
+        },
+        "pageHome": {
+          "type": "relation",
+          "relation": "oneToOne",
+          "target": "api::page-home.page-home",
           "inversedBy": "website"
         },
         "createdAt": {
@@ -3431,6 +3459,12 @@
             "type": "relation",
             "relation": "oneToOne",
             "target": "api::artist.artist",
+            "mappedBy": "website"
+          },
+          "pageHome": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::page-home.page-home",
             "inversedBy": "website"
           }
         },

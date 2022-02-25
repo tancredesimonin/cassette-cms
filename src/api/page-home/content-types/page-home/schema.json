@@ -45,6 +45,12 @@
         }
       },
       "component": "shared.seo"
+    },
+    "website": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::website.website",
+      "inversedBy": "pageHome"
     }
   }
 }

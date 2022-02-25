@@ -82,6 +82,11 @@
       "relation": "oneToOne",
       "target": "api::website.website",
       "inversedBy": "artist"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
     }
   }
 }

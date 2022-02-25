@@ -16,7 +16,8 @@
           "releases",
           "presence",
           "bio",
-          "website"
+          "website",
+          "projects"
         ],
         "locales": [
           "en",
@@ -60,7 +61,8 @@
           "releases",
           "presence",
           "bio",
-          "website"
+          "website",
+          "projects"
         ],
         "locales": [
           "en",
@@ -82,6 +84,399 @@
           "releases",
           "presence",
           "bio",
+          "website",
+          "projects"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::bio.bio",
+      "properties": {
+        "fields": [
+          "title",
+          "blocks",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.noIndex",
+          "artist"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::bio.bio",
+      "properties": {
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::bio.bio",
+      "properties": {
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::bio.bio",
+      "properties": {
+        "fields": [
+          "title",
+          "blocks",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.noIndex",
+          "artist"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::bio.bio",
+      "properties": {
+        "fields": [
+          "title",
+          "blocks",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.noIndex",
+          "artist"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::genre.genre",
+      "properties": {
+        "fields": [
+          "name",
+          "tracks"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::genre.genre",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::genre.genre",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::genre.genre",
+      "properties": {
+        "fields": [
+          "name",
+          "tracks"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::genre.genre",
+      "properties": {
+        "fields": [
+          "name",
+          "tracks"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::label.label",
+      "properties": {
+        "fields": [
+          "name",
+          "releases"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::label.label",
+      "properties": {
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::label.label",
+      "properties": {
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::label.label",
+      "properties": {
+        "fields": [
+          "name",
+          "releases"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::label.label",
+      "properties": {
+        "fields": [
+          "name",
+          "releases"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::locale-type.locale-type",
+      "properties": {
+        "fields": [
+          "shortCode",
+          "fullCode",
+          "label",
+          "localizedLabel"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::locale-type.locale-type",
+      "properties": {
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::locale-type.locale-type",
+      "properties": {
+        "fields": [
+          "shortCode",
+          "fullCode",
+          "label",
+          "localizedLabel"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::locale-type.locale-type",
+      "properties": {
+        "fields": [
+          "shortCode",
+          "fullCode",
+          "label",
+          "localizedLabel"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::page-home.page-home",
+      "properties": {
+        "fields": [
+          "title",
+          "blocks",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.noIndex",
+          "website"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::page-home.page-home",
+      "properties": {
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::page-home.page-home",
+      "properties": {
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::page-home.page-home",
+      "properties": {
+        "fields": [
+          "title",
+          "blocks",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.noIndex",
+          "website"
+        ],
+        "locales": [
+          "en",
+          "fr"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::page-home.page-home",
+      "properties": {
+        "fields": [
+          "title",
+          "blocks",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seo.noIndex",
           "website"
         ],
         "locales": [
@@ -93,395 +488,6 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
-      "subject": "api::bio.bio",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "artist"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::bio.bio",
-      "properties": {
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::bio.bio",
-      "properties": {
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::bio.bio",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "artist"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::bio.bio",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "artist"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::genre.genre",
-      "properties": {
-        "fields": [
-          "name",
-          "tracks"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::genre.genre",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::genre.genre",
-      "properties": {},
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::genre.genre",
-      "properties": {
-        "fields": [
-          "name",
-          "tracks"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::genre.genre",
-      "properties": {
-        "fields": [
-          "name",
-          "tracks"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::label.label",
-      "properties": {
-        "fields": [
-          "name",
-          "releases"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::label.label",
-      "properties": {
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::label.label",
-      "properties": {
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::label.label",
-      "properties": {
-        "fields": [
-          "name",
-          "releases"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::label.label",
-      "properties": {
-        "fields": [
-          "name",
-          "releases"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::locale-type.locale-type",
-      "properties": {
-        "fields": [
-          "shortCode",
-          "fullCode",
-          "label",
-          "localizedLabel"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::locale-type.locale-type",
-      "properties": {
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::locale-type.locale-type",
-      "properties": {
-        "fields": [
-          "shortCode",
-          "fullCode",
-          "label",
-          "localizedLabel"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::locale-type.locale-type",
-      "properties": {
-        "fields": [
-          "shortCode",
-          "fullCode",
-          "label",
-          "localizedLabel"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.delete",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.publish",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "fields": [
-          "title",
-          "blocks",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex"
-        ],
-        "locales": [
-          "en",
-          "fr"
-        ]
-      },
-      "conditions": []
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
       "subject": "api::page404.page404",
       "properties": {
         "fields": [
@@ -1017,7 +1023,8 @@
           "seo.canonicalURL",
           "seo.noIndex",
           "type",
-          "artist"
+          "artist",
+          "pageHome"
         ],
         "locales": [
           "en",
@@ -1062,7 +1069,8 @@
           "seo.canonicalURL",
           "seo.noIndex",
           "type",
-          "artist"
+          "artist",
+          "pageHome"
         ],
         "locales": [
           "en",
@@ -1096,7 +1104,8 @@
           "seo.canonicalURL",
           "seo.noIndex",
           "type",
-          "artist"
+          "artist",
+          "pageHome"
         ],
         "locales": [
           "en",
