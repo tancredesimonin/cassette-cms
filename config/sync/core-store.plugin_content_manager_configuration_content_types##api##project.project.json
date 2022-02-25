@@ -76,20 +76,6 @@
           "sortable": false
         }
       },
-      "slug": {
-        "edit": {
-          "label": "slug",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "slug",
-          "searchable": true,
-          "sortable": true
-        }
-      },
       "password": {
         "edit": {
           "label": "password",
@@ -100,6 +86,20 @@
         },
         "list": {
           "label": "password",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
           "searchable": true,
           "sortable": true
         }
@@ -140,7 +140,6 @@
         "public",
         "seo"
       ],
-      "editRelations": [],
       "edit": [
         [
           {
@@ -166,15 +165,16 @@
         ],
         [
           {
-            "name": "slug",
+            "name": "password",
             "size": 6
           },
           {
-            "name": "password",
+            "name": "slug",
             "size": 6
           }
         ]
-      ]
+      ],
+      "editRelations": []
     }
   },
   "type": "object",

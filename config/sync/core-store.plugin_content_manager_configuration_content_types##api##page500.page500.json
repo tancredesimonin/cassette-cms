@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "h1",
-      "defaultSortBy": "h1",
+      "mainField": "title",
+      "defaultSortBy": "title",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,16 +20,16 @@
           "sortable": true
         }
       },
-      "h1": {
+      "title": {
         "edit": {
-          "label": "h1",
+          "label": "title",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "h1",
+          "label": "title",
           "searchable": true,
           "sortable": true
         }
@@ -94,17 +94,12 @@
     "layouts": {
       "list": [
         "id",
-        "h1",
         "message",
-        "seo"
+        "seo",
+        "title"
       ],
-      "editRelations": [],
       "edit": [
         [
-          {
-            "name": "h1",
-            "size": 6
-          },
           {
             "name": "message",
             "size": 6
@@ -115,8 +110,15 @@
             "name": "seo",
             "size": 12
           }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 6
+          }
         ]
-      ]
+      ],
+      "editRelations": []
     }
   },
   "type": "object",

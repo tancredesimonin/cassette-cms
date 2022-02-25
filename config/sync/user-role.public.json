@@ -10,13 +10,16 @@
       "action": "api::artist.artist.findOne"
     },
     {
+      "action": "api::bio.bio.find"
+    },
+    {
+      "action": "api::bio.bio.findOne"
+    },
+    {
       "action": "api::genre.genre.find"
     },
     {
       "action": "api::genre.genre.findOne"
-    },
-    {
-      "action": "api::global.global.find"
     },
     {
       "action": "api::label.label.find"
@@ -25,10 +28,16 @@
       "action": "api::label.label.findOne"
     },
     {
-      "action": "api::page-bio.page-bio.find"
+      "action": "api::locale-type.locale-type.find"
+    },
+    {
+      "action": "api::locale-type.locale-type.findOne"
     },
     {
       "action": "api::page-home.page-home.find"
+    },
+    {
+      "action": "api::page-home.page-home.findOne"
     },
     {
       "action": "api::page404.page404.find"

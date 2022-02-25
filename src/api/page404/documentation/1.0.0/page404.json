@@ -19,7 +19,7 @@
                           "attributes": {
                             "type": "object",
                             "properties": {
-                              "h1": {
+                              "title": {
                                 "type": "string"
                               },
                               "message": {
@@ -1130,7 +1130,7 @@
                                         "attributes": {
                                           "type": "object",
                                           "properties": {
-                                            "h1": {
+                                            "title": {
                                               "type": "string"
                                             },
                                             "message": {
@@ -2291,7 +2291,7 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "h1": {
+                            "title": {
                               "type": "string"
                             },
                             "message": {
@@ -3402,7 +3402,7 @@
                                       "attributes": {
                                         "type": "object",
                                         "properties": {
-                                          "h1": {
+                                          "title": {
                                             "type": "string"
                                           },
                                           "message": {
@@ -4452,7 +4452,7 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "h1": {
+                      "title": {
                         "type": "string"
                       },
                       "message": {
@@ -4769,7 +4769,7 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "h1": {
+                            "title": {
                               "type": "string"
                             },
                             "message": {
@@ -5880,7 +5880,7 @@
                                       "attributes": {
                                         "type": "object",
                                         "properties": {
-                                          "h1": {
+                                          "title": {
                                             "type": "string"
                                           },
                                           "message": {
@@ -6930,7 +6930,7 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "h1": {
+                      "title": {
                         "type": "string"
                       },
                       "message": {

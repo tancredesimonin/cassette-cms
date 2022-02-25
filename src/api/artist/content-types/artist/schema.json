@@ -70,6 +70,18 @@
       "relation": "manyToMany",
       "target": "api::release.release",
       "inversedBy": "contributors"
+    },
+    "bio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::bio.bio",
+      "mappedBy": "artist"
+    },
+    "website": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::website.website",
+      "inversedBy": "artist"
     }
   }
 }

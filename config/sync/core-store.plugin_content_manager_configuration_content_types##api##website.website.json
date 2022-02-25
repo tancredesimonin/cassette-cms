@@ -35,6 +35,121 @@
           "sortable": false
         }
       },
+      "name": {
+        "edit": {
+          "label": "name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "favicon": {
+        "edit": {
+          "label": "favicon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "favicon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "locales": {
+        "edit": {
+          "label": "locales",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "shortCode"
+        },
+        "list": {
+          "label": "locales",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "defaultLocale": {
+        "edit": {
+          "label": "defaultLocale",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "shortCode"
+        },
+        "list": {
+          "label": "defaultLocale",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "domain": {
+        "edit": {
+          "label": "domain",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "domain",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "type": {
+        "edit": {
+          "label": "type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "artist": {
+        "edit": {
+          "label": "artist",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "artist",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -71,10 +186,42 @@
         "createdAt",
         "updatedAt"
       ],
-      "editRelations": [
-        "adminUsers"
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          },
+          {
+            "name": "favicon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "domain",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "type",
+            "size": 6
+          }
+        ]
       ],
-      "edit": []
+      "editRelations": [
+        "adminUsers",
+        "locales",
+        "defaultLocale",
+        "artist"
+      ]
     }
   },
   "type": "object",

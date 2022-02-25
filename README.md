@@ -10,10 +10,16 @@ Cassette is a fullstack project to be the ultimate website for artists, bands an
 This project is actively maintained and still in WIP and the v.1.0 will come max **mid-march.**
 If you're interested, as a contributor or not, please email me at tancrede-simonin@live.fr.
 
+## Roadmap
+
+[Trello Product Roadmap](https://trello.com/b/a4gmejWr/%F0%9F%93%BC-cassette-roadmap)
+
 ### 💎 Features
 
 - Built with the amazing [Strapi](https://strapi.io)
 - SEO-packed [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-seo)
+- Multitenancy : allows managing multiple websites with the same backend
+
 ### 👩‍💻 Developer Experience
 
 - Swagger Documentation auto-generated [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-documentation)

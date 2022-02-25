@@ -7,8 +7,8 @@
       "filterable": true,
       "searchable": true,
       "pageSize": 10,
-      "mainField": "h1",
-      "defaultSortBy": "h1",
+      "mainField": "title",
+      "defaultSortBy": "title",
       "defaultSortOrder": "ASC"
     },
     "metadatas": {
@@ -20,32 +20,18 @@
           "sortable": true
         }
       },
-      "h1": {
+      "title": {
         "edit": {
-          "label": "h1",
+          "label": "title",
           "description": "",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
-          "label": "h1",
+          "label": "title",
           "searchable": true,
           "sortable": true
-        }
-      },
-      "seo": {
-        "edit": {
-          "label": "seo",
-          "description": "",
-          "placeholder": "",
-          "visible": true,
-          "editable": true
-        },
-        "list": {
-          "label": "seo",
-          "searchable": false,
-          "sortable": false
         }
       },
       "blocks": {
@@ -58,6 +44,20 @@
         },
         "list": {
           "label": "blocks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
           "searchable": false,
           "sortable": false
         }
@@ -94,7 +94,7 @@
     "layouts": {
       "list": [
         "id",
-        "h1",
+        "title",
         "seo",
         "createdAt"
       ],
@@ -102,19 +102,19 @@
       "edit": [
         [
           {
-            "name": "h1",
+            "name": "title",
             "size": 6
           }
         ],
         [
           {
-            "name": "seo",
+            "name": "blocks",
             "size": 12
           }
         ],
         [
           {
-            "name": "blocks",
+            "name": "seo",
             "size": 12
           }
         ]

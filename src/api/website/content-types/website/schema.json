@@ -70,6 +70,25 @@
         }
       },
       "component": "shared.seo"
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "artist",
+        "label"
+      ],
+      "default": "artist"
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artist.artist",
+      "inversedBy": "website"
     }
   }
 }

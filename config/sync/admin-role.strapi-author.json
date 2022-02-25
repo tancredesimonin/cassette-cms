@@ -106,81 +106,6 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
-      "subject": "api::global.global",
-      "properties": {
-        "fields": [
-          "websiteTitle",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::global.global",
-      "properties": {
-        "fields": [
-          "websiteTitle",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::global.global",
-      "properties": {
-        "fields": [
-          "websiteTitle",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
       "subject": "api::label.label",
       "properties": {
         "fields": [
@@ -220,166 +145,9 @@
     },
     {
       "action": "plugin::content-manager.explorer.create",
-      "subject": "api::page-bio.page-bio",
-      "properties": {
-        "fields": [
-          "h1",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "blocks"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::page-bio.page-bio",
-      "properties": {
-        "fields": [
-          "h1",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "blocks"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::page-bio.page-bio",
-      "properties": {
-        "fields": [
-          "h1",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "blocks"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "fields": [
-          "h1",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "blocks"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.read",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "fields": [
-          "h1",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "blocks"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.update",
-      "subject": "api::page-home.page-home",
-      "properties": {
-        "fields": [
-          "h1",
-          "seo.metaTitle",
-          "seo.metaDescription",
-          "seo.metaImage",
-          "seo.metaSocial.socialNetwork",
-          "seo.metaSocial.title",
-          "seo.metaSocial.description",
-          "seo.metaSocial.image",
-          "seo.keywords",
-          "seo.metaRobots",
-          "seo.structuredData",
-          "seo.metaViewport",
-          "seo.canonicalURL",
-          "seo.noIndex",
-          "blocks"
-        ]
-      },
-      "conditions": [
-        "admin::is-creator"
-      ]
-    },
-    {
-      "action": "plugin::content-manager.explorer.create",
       "subject": "api::page404.page404",
       "properties": {
         "fields": [
-          "h1",
           "message",
           "seo.metaTitle",
           "seo.metaDescription",
@@ -405,7 +173,6 @@
       "subject": "api::page404.page404",
       "properties": {
         "fields": [
-          "h1",
           "message",
           "seo.metaTitle",
           "seo.metaDescription",
@@ -431,7 +198,6 @@
       "subject": "api::page404.page404",
       "properties": {
         "fields": [
-          "h1",
           "message",
           "seo.metaTitle",
           "seo.metaDescription",
@@ -457,7 +223,6 @@
       "subject": "api::page500.page500",
       "properties": {
         "fields": [
-          "h1",
           "message",
           "seo.metaTitle",
           "seo.metaDescription",
@@ -483,7 +248,6 @@
       "subject": "api::page500.page500",
       "properties": {
         "fields": [
-          "h1",
           "message",
           "seo.metaTitle",
           "seo.metaDescription",
@@ -509,7 +273,6 @@
       "subject": "api::page500.page500",
       "properties": {
         "fields": [
-          "h1",
           "message",
           "seo.metaTitle",
           "seo.metaDescription",
@@ -551,7 +314,6 @@
           "seo.canonicalURL",
           "seo.noIndex",
           "blocks",
-          "slug",
           "password"
         ]
       },
@@ -580,7 +342,6 @@
           "seo.canonicalURL",
           "seo.noIndex",
           "blocks",
-          "slug",
           "password"
         ]
       },
@@ -609,7 +370,6 @@
           "seo.canonicalURL",
           "seo.noIndex",
           "blocks",
-          "slug",
           "password"
         ]
       },
@@ -794,7 +554,8 @@
       "subject": "api::website.website",
       "properties": {
         "fields": [
-          "adminUsers"
+          "adminUsers",
+          "favicon"
         ]
       },
       "conditions": [
@@ -806,7 +567,8 @@
       "subject": "api::website.website",
       "properties": {
         "fields": [
-          "adminUsers"
+          "adminUsers",
+          "favicon"
         ]
       },
       "conditions": [
@@ -818,7 +580,8 @@
       "subject": "api::website.website",
       "properties": {
         "fields": [
-          "adminUsers"
+          "adminUsers",
+          "favicon"
         ]
       },
       "conditions": [

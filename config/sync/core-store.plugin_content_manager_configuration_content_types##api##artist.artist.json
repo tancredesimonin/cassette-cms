@@ -122,6 +122,36 @@
           "sortable": false
         }
       },
+      "bio": {
+        "edit": {
+          "label": "bio",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "bio",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "website": {
+        "edit": {
+          "label": "website",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "website",
+          "searchable": true,
+          "sortable": true
+        }
+      },
       "createdAt": {
         "edit": {
           "label": "createdAt",
@@ -158,12 +188,6 @@
         "picture",
         "contributions"
       ],
-      "editRelations": [
-        "contributions",
-        "tracks",
-        "releases",
-        "presence"
-      ],
       "edit": [
         [
           {
@@ -181,6 +205,14 @@
             "size": 12
           }
         ]
+      ],
+      "editRelations": [
+        "contributions",
+        "tracks",
+        "releases",
+        "presence",
+        "bio",
+        "website"
       ]
     }
   },

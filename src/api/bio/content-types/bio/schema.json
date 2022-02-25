@@ -4,7 +4,7 @@
   "info": {
     "singularName": "bio",
     "pluralName": "bios",
-    "displayName": "PageBio",
+    "displayName": "Bio",
     "description": ""
   },
   "options": {
@@ -46,6 +46,12 @@
         }
       },
       "component": "shared.seo"
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artist.artist",
+      "inversedBy": "bio"
     }
   }
 }
