@@ -1,4 +1,13 @@
-# 📼 Cassette CMS
+<p align="center">
+  <a href="https://cassette.rocks">
+    <h1 align="center">📼 Cassette CMS</h1>
+  </a>
+</p>
+
+<p align="center">
+  The <em>ultimate</em> website builder <br/>
+  for artists, musicians, bands, DJ's
+</p>
 
 This repository, Cassette CMS is the (no joke?) CMS part of the fullstack Cassette project.
 *The frontend repository is on the way...*

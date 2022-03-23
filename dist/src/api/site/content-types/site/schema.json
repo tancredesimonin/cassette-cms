@@ -1,0 +1,32 @@
+{
+    "kind": "collectionType",
+    "collectionName": "sites",
+    "info": {
+        "singularName": "site",
+        "pluralName": "sites",
+        "displayName": "Site"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "subdomain": {
+            "type": "string",
+            "unique": true
+        },
+        "customDomain": {
+            "type": "string",
+            "unique": true
+        },
+        "editors": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "plugin::users-permissions.user",
+            "inversedBy": "sites_edit"
+        }
+    }
+}
