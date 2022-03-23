@@ -1,6 +1,37 @@
-# 🚀 Getting started with Strapi
+# 📼 Cassette CMS
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
+This repository, Cassette CMS is the (no joke?) CMS part of the fullstack Cassette project.
+*The frontend repository is on the way...*
+
+Cassette is a fullstack project to be the ultimate website for artists, bands and DJ's.
+
+## WORK IN PROGRESS
+
+This project is actively maintained and still in WIP and the v0.1 will come max **mid-march.**
+If you're interested, as a contributor or not you can :
+- [Click here to join the Slack Workspace](https://join.slack.com/t/cassettegroupe/shared_invite/zt-14ol9iw6p-4WZjBlIi4sHx52MWIndYhw)
+- Or email me at tancrede.simonin.eco@gmail.com
+
+## Roadmap
+
+[Trello Product Roadmap](https://trello.com/b/a4gmejWr/%F0%9F%93%BC-cassette-roadmap)
+
+### 💎 Features
+
+- Built with the amazing [Strapi](https://strapi.io)
+- Multitenancy : allows managing multiple websites with the same backend
+
+### 👩‍💻 Developer Experience
+
+- Now with Typescript ❤
+- Swagger Documentation auto-generated [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-documentation)
+
+
+May be removed with v0.1:
+- SEO-packed [plugin documentation](https://market.strapi.io/plugins/@strapi-plugin-seo)
+- Custom S3 Provider [plugin documentation](https://github.com/zoomoid/strapi-provider-upload-aws-s3-advanced)
+- Config syncro between environments [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-config-sync)
+- Automatic Entity relationship chart [plugin documentation](https://market.strapi.io/plugins/strapi-plugin-entity-relationship-chart)
 
 ### `develop`
 
@@ -34,24 +65,20 @@ yarn build
 
 ## ⚙️ Deployment
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+## First installation
 
-## 📚 Learn more
+1. Install dependencies
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://docs.strapi.io) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
+```
+npm install
+# or
+yarn install
+```
 
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
+## LICENSE
 
-## ✨ Community
+This project is licensed under the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0).
 
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
+The goal of this licensing is to allow almost anything in usage, even commercial, as long as the derivatives use the same license and is open-sourced.
 
----
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
