@@ -1,10 +1,17 @@
 module.exports = ({ strapi }) => ({
+    /**
+     * ### Checks availability of a domain or subdomain
+     *
+     * with `?subdomain=true` it'll check the subdomain name availibility in the sites table
+     *
+     * WIP:
+     * should be later able to return as well availability of "real" domains with `subdomain=false` or missing
+     */
     async checkAvailability(ctx) {
-        strapi.log.info(JSON.stringify(ctx.state));
-        const { subdomain } = ctx.query;
+        const { domain, subdomain = false } = ctx.query;
         let entries = null;
-        if (subdomain) {
-            const sub = subdomain.replace(/[^a-zA-Z0-9/-]+/g, "");
+        if (subdomain && domain) {
+            const sub = domain.replace(/[^a-zA-Z0-9/-]+/g, "");
             const query = {
                 filters: {
                     subdomain: {
@@ -14,7 +21,7 @@ module.exports = ({ strapi }) => ({
             };
             entries = await strapi.service("api::site.site").find(query);
         }
-        const available = entries.results.length === 0 && subdomain.length !== 0;
+        const available = entries.results.length === 0 && domain.length !== 0;
         ctx.response.body = available;
         ctx.status = 200;
     },
