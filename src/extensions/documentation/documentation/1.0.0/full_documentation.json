@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-03-23T17:18:00.800Z"
+    "x-generation-date": "2022-03-28T11:19:55.102Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -71,9 +71,6 @@
                             "type": "object",
                             "properties": {
                               "name": {
-                                "type": "string"
-                              },
-                              "subdomain": {
                                 "type": "string"
                               },
                               "customDomain": {
@@ -555,9 +552,6 @@
                                                           "name": {
                                                             "type": "string"
                                                           },
-                                                          "subdomain": {
-                                                            "type": "string"
-                                                          },
                                                           "customDomain": {
                                                             "type": "string"
                                                           },
@@ -581,15 +575,31 @@
                                                               }
                                                             }
                                                           },
+                                                          "owner": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                              "data": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                  "id": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "attributes": {
+                                                                    "type": "object",
+                                                                    "properties": {}
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "subdomain": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
                                                           },
                                                           "updatedAt": {
-                                                            "type": "string",
-                                                            "format": "date-time"
-                                                          },
-                                                          "publishedAt": {
                                                             "type": "string",
                                                             "format": "date-time"
                                                           },
@@ -628,6 +638,29 @@
                                                             }
                                                           }
                                                         }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "firstName": {
+                                              "type": "string"
+                                            },
+                                            "sites_own": {
+                                              "type": "object",
+                                              "properties": {
+                                                "data": {
+                                                  "type": "array",
+                                                  "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                      "id": {
+                                                        "type": "string"
+                                                      },
+                                                      "attributes": {
+                                                        "type": "object",
+                                                        "properties": {}
                                                       }
                                                     }
                                                   }
@@ -683,15 +716,31 @@
                                   }
                                 }
                               },
+                              "owner": {
+                                "type": "object",
+                                "properties": {
+                                  "data": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "string"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "subdomain": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
                               },
                               "updatedAt": {
-                                "type": "string",
-                                "format": "date-time"
-                              },
-                              "publishedAt": {
                                 "type": "string",
                                 "format": "date-time"
                               },
@@ -1015,9 +1064,6 @@
                             "name": {
                               "type": "string"
                             },
-                            "subdomain": {
-                              "type": "string"
-                            },
                             "customDomain": {
                               "type": "string"
                             },
@@ -1497,9 +1543,6 @@
                                                         "name": {
                                                           "type": "string"
                                                         },
-                                                        "subdomain": {
-                                                          "type": "string"
-                                                        },
                                                         "customDomain": {
                                                           "type": "string"
                                                         },
@@ -1523,15 +1566,31 @@
                                                             }
                                                           }
                                                         },
+                                                        "owner": {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "data": {
+                                                              "type": "object",
+                                                              "properties": {
+                                                                "id": {
+                                                                  "type": "string"
+                                                                },
+                                                                "attributes": {
+                                                                  "type": "object",
+                                                                  "properties": {}
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "subdomain": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
                                                         },
                                                         "updatedAt": {
-                                                          "type": "string",
-                                                          "format": "date-time"
-                                                        },
-                                                        "publishedAt": {
                                                           "type": "string",
                                                           "format": "date-time"
                                                         },
@@ -1570,6 +1629,29 @@
                                                           }
                                                         }
                                                       }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "firstName": {
+                                            "type": "string"
+                                          },
+                                          "sites_own": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "attributes": {
+                                                      "type": "object",
+                                                      "properties": {}
                                                     }
                                                   }
                                                 }
@@ -1625,15 +1707,31 @@
                                 }
                               }
                             },
+                            "owner": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "subdomain": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
                             },
                             "updatedAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "publishedAt": {
                               "type": "string",
                               "format": "date-time"
                             },
@@ -1843,62 +1941,8 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "name": {
-                        "type": "string"
-                      },
                       "subdomain": {
                         "type": "string"
-                      },
-                      "customDomain": {
-                        "type": "string"
-                      },
-                      "editors": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "createdAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
                       }
                     }
                   }
@@ -1928,9 +1972,6 @@
                           "type": "object",
                           "properties": {
                             "name": {
-                              "type": "string"
-                            },
-                            "subdomain": {
                               "type": "string"
                             },
                             "customDomain": {
@@ -2412,9 +2453,6 @@
                                                         "name": {
                                                           "type": "string"
                                                         },
-                                                        "subdomain": {
-                                                          "type": "string"
-                                                        },
                                                         "customDomain": {
                                                           "type": "string"
                                                         },
@@ -2438,15 +2476,31 @@
                                                             }
                                                           }
                                                         },
+                                                        "owner": {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "data": {
+                                                              "type": "object",
+                                                              "properties": {
+                                                                "id": {
+                                                                  "type": "string"
+                                                                },
+                                                                "attributes": {
+                                                                  "type": "object",
+                                                                  "properties": {}
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "subdomain": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
                                                         },
                                                         "updatedAt": {
-                                                          "type": "string",
-                                                          "format": "date-time"
-                                                        },
-                                                        "publishedAt": {
                                                           "type": "string",
                                                           "format": "date-time"
                                                         },
@@ -2485,6 +2539,29 @@
                                                           }
                                                         }
                                                       }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "firstName": {
+                                            "type": "string"
+                                          },
+                                          "sites_own": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "attributes": {
+                                                      "type": "object",
+                                                      "properties": {}
                                                     }
                                                   }
                                                 }
@@ -2540,15 +2617,31 @@
                                 }
                               }
                             },
+                            "owner": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "subdomain": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
                             },
                             "updatedAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "publishedAt": {
                               "type": "string",
                               "format": "date-time"
                             },
@@ -2781,9 +2874,6 @@
                             "name": {
                               "type": "string"
                             },
-                            "subdomain": {
-                              "type": "string"
-                            },
                             "customDomain": {
                               "type": "string"
                             },
@@ -3263,9 +3353,6 @@
                                                         "name": {
                                                           "type": "string"
                                                         },
-                                                        "subdomain": {
-                                                          "type": "string"
-                                                        },
                                                         "customDomain": {
                                                           "type": "string"
                                                         },
@@ -3289,15 +3376,31 @@
                                                             }
                                                           }
                                                         },
+                                                        "owner": {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "data": {
+                                                              "type": "object",
+                                                              "properties": {
+                                                                "id": {
+                                                                  "type": "string"
+                                                                },
+                                                                "attributes": {
+                                                                  "type": "object",
+                                                                  "properties": {}
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "subdomain": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
                                                         },
                                                         "updatedAt": {
-                                                          "type": "string",
-                                                          "format": "date-time"
-                                                        },
-                                                        "publishedAt": {
                                                           "type": "string",
                                                           "format": "date-time"
                                                         },
@@ -3336,6 +3439,29 @@
                                                           }
                                                         }
                                                       }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "firstName": {
+                                            "type": "string"
+                                          },
+                                          "sites_own": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "attributes": {
+                                                      "type": "object",
+                                                      "properties": {}
                                                     }
                                                   }
                                                 }
@@ -3391,15 +3517,31 @@
                                 }
                               }
                             },
+                            "owner": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "attributes": {
+                                      "type": "object",
+                                      "properties": {}
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "subdomain": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
                             },
                             "updatedAt": {
-                              "type": "string",
-                              "format": "date-time"
-                            },
-                            "publishedAt": {
                               "type": "string",
                               "format": "date-time"
                             },
@@ -3623,9 +3765,6 @@
                       "name": {
                         "type": "string"
                       },
-                      "subdomain": {
-                        "type": "string"
-                      },
                       "customDomain": {
                         "type": "string"
                       },
@@ -3643,15 +3782,25 @@
                           "example": "string or id"
                         }
                       },
+                      "owner": {
+                        "oneOf": [
+                          {
+                            "type": "integer"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ],
+                        "example": "string or id"
+                      },
+                      "subdomain": {
+                        "type": "string"
+                      },
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"
                       },
                       "updatedAt": {
-                        "type": "string",
-                        "format": "date-time"
-                      },
-                      "publishedAt": {
                         "type": "string",
                         "format": "date-time"
                       },

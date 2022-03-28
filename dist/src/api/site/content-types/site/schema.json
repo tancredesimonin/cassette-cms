@@ -4,29 +4,37 @@
     "info": {
         "singularName": "site",
         "pluralName": "sites",
-        "displayName": "Site"
+        "displayName": "Site",
+        "description": ""
     },
     "options": {
-        "draftAndPublish": true
+        "draftAndPublish": false
     },
     "pluginOptions": {},
     "attributes": {
         "name": {
             "type": "string"
         },
-        "subdomain": {
-            "type": "string",
-            "unique": true
-        },
         "customDomain": {
             "type": "string",
-            "unique": true
+            "unique": false
         },
         "editors": {
             "type": "relation",
             "relation": "manyToMany",
             "target": "plugin::users-permissions.user",
-            "inversedBy": "sites_edit"
+            "mappedBy": "sites_edit"
+        },
+        "owner": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "plugin::users-permissions.user",
+            "inversedBy": "sites_own"
+        },
+        "subdomain": {
+            "type": "uid",
+            "targetField": "name",
+            "required": true
         }
     }
 }

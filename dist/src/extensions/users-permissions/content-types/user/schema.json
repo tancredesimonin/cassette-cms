@@ -68,6 +68,15 @@
             "relation": "manyToMany",
             "target": "api::site.site",
             "inversedBy": "editors"
+        },
+        "firstName": {
+            "type": "string"
+        },
+        "sites_own": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::site.site",
+            "mappedBy": "owner"
         }
     }
 }

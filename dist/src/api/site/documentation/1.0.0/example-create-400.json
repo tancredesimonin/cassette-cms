@@ -1,0 +1,19 @@
+{
+    "data": null,
+    "error": {
+        "status": 400,
+        "name": "ValidationError",
+        "message": "This attribute must be unique",
+        "details": {
+            "errors": [
+                {
+                    "path": [
+                        "subdomain"
+                    ],
+                    "message": "This attribute must be unique",
+                    "name": "ValidationError"
+                }
+            ]
+        }
+    }
+}
