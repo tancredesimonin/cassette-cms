@@ -7,14 +7,6 @@ import axios from "axios";
 
 module.exports = createCoreService("api::domain.domain", ({ strapi }) => ({
 
-
-
-
-
-
-
-
-
   async create(domain) {
     return await axios.post(
       `https://api.vercel.com/v8/projects/${process.env.VERCEL_PROJECT_ID}/domains?teamId=${process.env.VERCEL_TEAM_ID}`,

@@ -33,5 +33,26 @@ module.exports = ({ strapi }) => ({
  
     ctx.response.body = available;
     ctx.status = 200;
+
+
+
+    /**
+     * TODO : add real domain
+     */
+
+      //   const response = await fetch(
+      //     `https://api.vercel.com/v6/domains/${domain}/config?teamId=${process.env.VERCEL_TEAM_ID}`,
+      //     {
+      //       method: HttpMethod.GET,
+      //       headers: {
+      //         Authorization: `Bearer ${process.env.AUTH_BEARER_TOKEN}`,
+      //         "Content-Type": "application/json",
+      //       },
+      //     }
+      //   );
+
+      //   const data = await response.json();
+
+      //   const valid = data?.configuredBy ? true : false;
    },
  });
