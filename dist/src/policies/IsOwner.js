@@ -18,7 +18,10 @@ module.exports = async (ctx, config, { strapi }) => {
             const [entity] = await strapi.entityService.findMany(uid, {
                 filters: { id, [field]: userId },
             });
-            return entity ? true : false;
+            if (entity)
+                return true;
+            else
+                return;
         }
         else {
             ctx.request.query.filters = { ...ctx.request.query.filters, [field]: userId };
@@ -26,6 +29,6 @@ module.exports = async (ctx, config, { strapi }) => {
         }
     }
     catch (error) {
-        return false;
+        return;
     }
 };

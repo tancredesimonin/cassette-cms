@@ -9,44 +9,62 @@
 
 import { factories } from '@strapi/strapi';
 
-// Modify these to match your Content-type
-const uid = 'api::site.site';
-const field = 'owner';
 const SetOwner = {
     name: 'global::SetOwner',
     config: {
-        field,
-        uid,
+        field: 'owner',
+        uid: 'api::site.site',
     },
 };
 const IsOwner = {
     name: 'global::IsOwner',
     config: {
-        field,
-        uid,
+        field: 'owner',
+        uid: 'api::site.site',
     },
 };
-module.exports = factories.createCoreRouter(uid, {
+const IsFullAccessKey = {
+    name: 'global::IsFullAccessKey'
+}
+module.exports = factories.createCoreRouter('api::site.site', {
     config: {
         // @ts-ignore
         create: {
             middlewares: [SetOwner],
         },
         find: {
-            // @ts-ignore
-            policies: [IsOwner],
+            policies: [
+                // @ts-ignore
+                IsOwner,
+                // @ts-ignore
+                IsFullAccessKey,
+            ],
         },
         findOne: {
             // @ts-ignore
-            policies: [IsOwner],
+            policies: [
+                // @ts-ignore
+                IsOwner,
+                // @ts-ignore
+                IsFullAccessKey,
+            ],
         },
         delete: {
-            // @ts-ignore
-            policies: [IsOwner],
+            policies: [
+                // @ts-ignore
+                IsOwner,
+                // @ts-ignore
+                IsFullAccessKey,
+            ],
         },
         update: {
             // @ts-ignore
-            policies: [IsOwner],
+            policies: [
+                // @ts-ignore
+                IsOwner,
+                // @ts-ignore
+                IsFullAccessKey,
+            ],
             middlewares: [SetOwner],
         },
     },

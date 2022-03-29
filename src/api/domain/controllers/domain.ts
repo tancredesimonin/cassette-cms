@@ -11,7 +11,6 @@ module.exports = ({ strapi }) => ({
    * should be later able to return as well availability of "real" domains with `subdomain=false` or missing
    */
    async checkAvailability(ctx) {
-
     const { domain, subdomain = false } = ctx.query;
     let entries = null;
 
