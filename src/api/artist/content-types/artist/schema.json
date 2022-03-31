@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artists",
+  "info": {
+    "singularName": "artist",
+    "pluralName": "artists",
+    "displayName": "Artist",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "releases": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::release.release",
+      "mappedBy": "artist"
+    },
+    "presence": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::release.release",
+      "inversedBy": "contributors"
+    },
+    "recordType": {
+      "type": "string"
+    },
+    "tracks": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::track.track",
+      "inversedBy": "artists"
+    },
+    "contributions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::track.track",
+      "inversedBy": "contributors"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "about": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about.about",
+      "mappedBy": "artist"
+    }
+  }
+}

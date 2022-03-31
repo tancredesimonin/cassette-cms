@@ -1,0 +1,38 @@
+{
+    "kind": "collectionType",
+    "collectionName": "genres",
+    "info": {
+        "singularName": "genre",
+        "pluralName": "genres",
+        "displayName": "Genre",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "tracks": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::track.track",
+            "inversedBy": "genres"
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "title"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "type_locales",
+  "info": {
+    "singularName": "type-locale",
+    "pluralName": "type-locales",
+    "displayName": "Type: Locale"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "shortCode": {
+      "type": "string"
+    },
+    "fullCode": {
+      "type": "string"
+    }
+  }
+}

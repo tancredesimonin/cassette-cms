@@ -1,0 +1,63 @@
+{
+    "kind": "collectionType",
+    "collectionName": "tracks",
+    "info": {
+        "singularName": "track",
+        "pluralName": "tracks",
+        "displayName": "Track"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "releaseDate": {
+            "type": "date"
+        },
+        "bpm": {
+            "type": "float"
+        },
+        "duration": {
+            "type": "integer"
+        },
+        "releasePosition": {
+            "type": "integer"
+        },
+        "file": {
+            "allowedTypes": [
+                "videos",
+                "audios"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "release": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::release.release",
+            "inversedBy": "tracks"
+        },
+        "genres": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::genre.genre",
+            "mappedBy": "tracks"
+        },
+        "artists": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::artist.artist",
+            "mappedBy": "tracks"
+        },
+        "contributors": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::artist.artist",
+            "mappedBy": "contributions"
+        }
+    }
+}

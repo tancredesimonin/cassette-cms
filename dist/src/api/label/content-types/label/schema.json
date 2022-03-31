@@ -1,0 +1,29 @@
+{
+    "kind": "collectionType",
+    "collectionName": "labels",
+    "info": {
+        "singularName": "label",
+        "pluralName": "labels",
+        "displayName": "Label",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "uid",
+            "targetField": "name"
+        },
+        "releases": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::release.release",
+            "mappedBy": "label"
+        }
+    }
+}

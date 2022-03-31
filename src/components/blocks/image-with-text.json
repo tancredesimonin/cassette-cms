@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_blocks_image_with_texts",
+  "info": {
+    "displayName": "image with text",
+    "icon": "outdent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "mediaDescription": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "rtl",
+        "ltr"
+      ]
+    }
+  }
+}

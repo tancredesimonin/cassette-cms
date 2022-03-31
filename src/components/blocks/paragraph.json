@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_paragraphs",
+  "info": {
+    "displayName": "paragraph",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

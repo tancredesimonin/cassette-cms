@@ -35,6 +35,12 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "about": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::about.about",
+      "inversedBy": "site"
     }
   }
 }

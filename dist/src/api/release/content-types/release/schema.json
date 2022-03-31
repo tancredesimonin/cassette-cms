@@ -1,0 +1,54 @@
+{
+    "kind": "collectionType",
+    "collectionName": "releases",
+    "info": {
+        "singularName": "release",
+        "pluralName": "releases",
+        "displayName": "Release"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "releaseDate": {
+            "type": "date"
+        },
+        "cover": {
+            "allowedTypes": [
+                "images",
+                "videos"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "artist": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::artist.artist",
+            "inversedBy": "releases"
+        },
+        "contributors": {
+            "type": "relation",
+            "relation": "manyToMany",
+            "target": "api::artist.artist",
+            "mappedBy": "presence"
+        },
+        "tracks": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::track.track",
+            "mappedBy": "release"
+        },
+        "label": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::label.label",
+            "inversedBy": "releases"
+        }
+    }
+}
