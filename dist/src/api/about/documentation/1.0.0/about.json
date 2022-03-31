@@ -1,6 +1,6 @@
 {
     "paths": {
-        "/abouts": {
+        "/sites": {
             "get": {
                 "responses": {
                     "200": {
@@ -3649,7 +3649,7 @@
                         }
                     }
                 ],
-                "operationId": "get/abouts"
+                "operationId": "get/sites"
             },
             "post": {
                 "responses": {
@@ -7195,7 +7195,7 @@
                     "About"
                 ],
                 "parameters": [],
-                "operationId": "post/abouts",
+                "operationId": "post/sites",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -7342,7 +7342,7 @@
                 }
             }
         },
-        "/abouts/{id}": {
+        "/sites/{id}": {
             "get": {
                 "responses": {
                     "200": {
@@ -10898,7 +10898,7 @@
                         }
                     }
                 ],
-                "operationId": "get/abouts/{id}"
+                "operationId": "get/sites/{id}"
             },
             "put": {
                 "responses": {
@@ -14455,7 +14455,7 @@
                         }
                     }
                 ],
-                "operationId": "put/abouts/{id}",
+                "operationId": "put/sites/{id}",
                 "requestBody": {
                     "required": true,
                     "content": {
@@ -14775,7 +14775,7 @@
                         }
                     }
                 ],
-                "operationId": "delete/abouts/{id}"
+                "operationId": "delete/sites/{id}"
             }
         },
         "/abouts/{id}/localizations": {
