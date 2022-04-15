@@ -26,6 +26,14 @@ const IsOwner = {
 const IsFullAccessKey = {
     name: 'global::IsFullAccessKey'
 }
+
+const IsRole = {
+    name: 'global::IsRole',
+    config: {
+        roleId: 1 // Authenticated
+    }
+}
+
 module.exports = factories.createCoreRouter('api::artist.artist', {
     config: {
         // @ts-ignore
@@ -35,7 +43,7 @@ module.exports = factories.createCoreRouter('api::artist.artist', {
         find: {
             policies: [
                 // @ts-ignore
-                IsOwner,
+                IsRole,
                 // @ts-ignore
                 IsFullAccessKey,
             ],
@@ -44,7 +52,7 @@ module.exports = factories.createCoreRouter('api::artist.artist', {
             // @ts-ignore
             policies: [
                 // @ts-ignore
-                IsOwner,
+                IsRole,
                 // @ts-ignore
                 IsFullAccessKey,
             ],

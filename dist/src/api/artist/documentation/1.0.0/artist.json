@@ -3371,6 +3371,26 @@
                                                                                                                         }
                                                                                                                     }
                                                                                                                 },
+                                                                                                                "socialMedias": {
+                                                                                                                    "type": "object",
+                                                                                                                    "properties": {
+                                                                                                                        "data": {
+                                                                                                                            "type": "array",
+                                                                                                                            "items": {
+                                                                                                                                "type": "object",
+                                                                                                                                "properties": {
+                                                                                                                                    "id": {
+                                                                                                                                        "type": "string"
+                                                                                                                                    },
+                                                                                                                                    "attributes": {
+                                                                                                                                        "type": "object",
+                                                                                                                                        "properties": {}
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                },
                                                                                                                 "createdAt": {
                                                                                                                     "type": "string",
                                                                                                                     "format": "date-time"
@@ -7279,6 +7299,26 @@
                                                                                                                 "type": "string"
                                                                                                             },
                                                                                                             "releases": {
+                                                                                                                "type": "object",
+                                                                                                                "properties": {
+                                                                                                                    "data": {
+                                                                                                                        "type": "array",
+                                                                                                                        "items": {
+                                                                                                                            "type": "object",
+                                                                                                                            "properties": {
+                                                                                                                                "id": {
+                                                                                                                                    "type": "string"
+                                                                                                                                },
+                                                                                                                                "attributes": {
+                                                                                                                                    "type": "object",
+                                                                                                                                    "properties": {}
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            },
+                                                                                                            "socialMedias": {
                                                                                                                 "type": "object",
                                                                                                                 "properties": {
                                                                                                                     "data": {
@@ -11305,6 +11345,26 @@
                                                                                                                     }
                                                                                                                 }
                                                                                                             },
+                                                                                                            "socialMedias": {
+                                                                                                                "type": "object",
+                                                                                                                "properties": {
+                                                                                                                    "data": {
+                                                                                                                        "type": "array",
+                                                                                                                        "items": {
+                                                                                                                            "type": "object",
+                                                                                                                            "properties": {
+                                                                                                                                "id": {
+                                                                                                                                    "type": "string"
+                                                                                                                                },
+                                                                                                                                "attributes": {
+                                                                                                                                    "type": "object",
+                                                                                                                                    "properties": {}
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            },
                                                                                                             "createdAt": {
                                                                                                                 "type": "string",
                                                                                                                 "format": "date-time"
@@ -15122,6 +15182,26 @@
                                                                                                                 "type": "string"
                                                                                                             },
                                                                                                             "releases": {
+                                                                                                                "type": "object",
+                                                                                                                "properties": {
+                                                                                                                    "data": {
+                                                                                                                        "type": "array",
+                                                                                                                        "items": {
+                                                                                                                            "type": "object",
+                                                                                                                            "properties": {
+                                                                                                                                "id": {
+                                                                                                                                    "type": "string"
+                                                                                                                                },
+                                                                                                                                "attributes": {
+                                                                                                                                    "type": "object",
+                                                                                                                                    "properties": {}
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            },
+                                                                                                            "socialMedias": {
                                                                                                                 "type": "object",
                                                                                                                 "properties": {
                                                                                                                     "data": {

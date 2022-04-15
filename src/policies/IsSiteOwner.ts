@@ -16,7 +16,6 @@ module.exports = async (ctx, config, { strapi }) => {
     const { field, uid } = config;
     const { id: userId } = ctx.state.user;
     const { id } = ctx.params;
-    strapi.log.info(JSON.stringify(ctx))
     if (id) {
       const [entity] = await strapi.entityService.findMany(uid, {
         filters: { id, [field]: { owner: userId } },

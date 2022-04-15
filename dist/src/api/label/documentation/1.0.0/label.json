@@ -3004,6 +3004,26 @@
                                                                                                                         }
                                                                                                                     }
                                                                                                                 },
+                                                                                                                "socialMedias": {
+                                                                                                                    "type": "object",
+                                                                                                                    "properties": {
+                                                                                                                        "data": {
+                                                                                                                            "type": "array",
+                                                                                                                            "items": {
+                                                                                                                                "type": "object",
+                                                                                                                                "properties": {
+                                                                                                                                    "id": {
+                                                                                                                                        "type": "string"
+                                                                                                                                    },
+                                                                                                                                    "attributes": {
+                                                                                                                                        "type": "object",
+                                                                                                                                        "properties": {}
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                },
                                                                                                                 "createdAt": {
                                                                                                                     "type": "string",
                                                                                                                     "format": "date-time"
@@ -3095,6 +3115,26 @@
                                                                                             }
                                                                                         }
                                                                                     }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "socialMedias": {
+                                                                "type": "object",
+                                                                "properties": {
+                                                                    "data": {
+                                                                        "type": "array",
+                                                                        "items": {
+                                                                            "type": "object",
+                                                                            "properties": {
+                                                                                "id": {
+                                                                                    "type": "string"
+                                                                                },
+                                                                                "attributes": {
+                                                                                    "type": "object",
+                                                                                    "properties": {}
                                                                                 }
                                                                             }
                                                                         }
@@ -6410,6 +6450,26 @@
                                                                                                                     }
                                                                                                                 }
                                                                                                             },
+                                                                                                            "socialMedias": {
+                                                                                                                "type": "object",
+                                                                                                                "properties": {
+                                                                                                                    "data": {
+                                                                                                                        "type": "array",
+                                                                                                                        "items": {
+                                                                                                                            "type": "object",
+                                                                                                                            "properties": {
+                                                                                                                                "id": {
+                                                                                                                                    "type": "string"
+                                                                                                                                },
+                                                                                                                                "attributes": {
+                                                                                                                                    "type": "object",
+                                                                                                                                    "properties": {}
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            },
                                                                                                             "createdAt": {
                                                                                                                 "type": "string",
                                                                                                                 "format": "date-time"
@@ -6501,6 +6561,26 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "socialMedias": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
                                                                             }
                                                                         }
                                                                     }
@@ -6728,6 +6808,20 @@
                                                 "type": "string"
                                             },
                                             "releases": {
+                                                "type": "array",
+                                                "items": {
+                                                    "oneOf": [
+                                                        {
+                                                            "type": "integer"
+                                                        },
+                                                        {
+                                                            "type": "string"
+                                                        }
+                                                    ],
+                                                    "example": "string or id"
+                                                }
+                                            },
+                                            "socialMedias": {
                                                 "type": "array",
                                                 "items": {
                                                     "oneOf": [
@@ -9782,6 +9876,26 @@
                                                                                                                     }
                                                                                                                 }
                                                                                                             },
+                                                                                                            "socialMedias": {
+                                                                                                                "type": "object",
+                                                                                                                "properties": {
+                                                                                                                    "data": {
+                                                                                                                        "type": "array",
+                                                                                                                        "items": {
+                                                                                                                            "type": "object",
+                                                                                                                            "properties": {
+                                                                                                                                "id": {
+                                                                                                                                    "type": "string"
+                                                                                                                                },
+                                                                                                                                "attributes": {
+                                                                                                                                    "type": "object",
+                                                                                                                                    "properties": {}
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            },
                                                                                                             "createdAt": {
                                                                                                                 "type": "string",
                                                                                                                 "format": "date-time"
@@ -9873,6 +9987,26 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "socialMedias": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
                                                                             }
                                                                         }
                                                                     }
@@ -13097,6 +13231,26 @@
                                                                                                                     }
                                                                                                                 }
                                                                                                             },
+                                                                                                            "socialMedias": {
+                                                                                                                "type": "object",
+                                                                                                                "properties": {
+                                                                                                                    "data": {
+                                                                                                                        "type": "array",
+                                                                                                                        "items": {
+                                                                                                                            "type": "object",
+                                                                                                                            "properties": {
+                                                                                                                                "id": {
+                                                                                                                                    "type": "string"
+                                                                                                                                },
+                                                                                                                                "attributes": {
+                                                                                                                                    "type": "object",
+                                                                                                                                    "properties": {}
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            },
                                                                                                             "createdAt": {
                                                                                                                 "type": "string",
                                                                                                                 "format": "date-time"
@@ -13188,6 +13342,26 @@
                                                                                         }
                                                                                     }
                                                                                 }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "socialMedias": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                                "data": {
+                                                                    "type": "array",
+                                                                    "items": {
+                                                                        "type": "object",
+                                                                        "properties": {
+                                                                            "id": {
+                                                                                "type": "string"
+                                                                            },
+                                                                            "attributes": {
+                                                                                "type": "object",
+                                                                                "properties": {}
                                                                             }
                                                                         }
                                                                     }
@@ -13426,6 +13600,20 @@
                                                 "type": "string"
                                             },
                                             "releases": {
+                                                "type": "array",
+                                                "items": {
+                                                    "oneOf": [
+                                                        {
+                                                            "type": "integer"
+                                                        },
+                                                        {
+                                                            "type": "string"
+                                                        }
+                                                    ],
+                                                    "example": "string or id"
+                                                }
+                                            },
+                                            "socialMedias": {
                                                 "type": "array",
                                                 "items": {
                                                     "oneOf": [
