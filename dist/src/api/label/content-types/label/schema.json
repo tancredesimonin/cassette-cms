@@ -24,6 +24,11 @@
             "relation": "oneToMany",
             "target": "api::release.release",
             "mappedBy": "label"
+        },
+        "socialMedias": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::social-media.social-media"
         }
     }
 }

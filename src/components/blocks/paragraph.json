@@ -7,11 +7,8 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "text": {
-      "type": "richtext"
+      "type": "text"
     }
   }
 }

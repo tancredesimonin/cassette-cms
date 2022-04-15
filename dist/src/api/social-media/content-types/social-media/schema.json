@@ -1,0 +1,33 @@
+{
+    "kind": "collectionType",
+    "collectionName": "social_medias",
+    "info": {
+        "singularName": "social-media",
+        "pluralName": "social-medias",
+        "displayName": "Social Media"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string"
+        },
+        "provider": {
+            "type": "enumeration",
+            "enum": [
+                "facebook",
+                "instagram",
+                "twitter",
+                "youtube",
+                "soundcloud",
+                "beatport",
+                "spotify"
+            ]
+        }
+    }
+}

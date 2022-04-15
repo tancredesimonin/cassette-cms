@@ -39,7 +39,8 @@
       "type": "dynamiczone",
       "components": [
         "blocks.image-with-text",
-        "blocks.paragraph"
+        "blocks.paragraph",
+        "blocks.header"
       ]
     },
     "site": {
@@ -47,6 +48,14 @@
       "relation": "oneToOne",
       "target": "api::site.site",
       "inversedBy": "about"
+    },
+    "blocksVersion": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

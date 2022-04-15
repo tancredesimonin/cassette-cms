@@ -1,0 +1,20 @@
+{
+    "collectionName": "components_blocks_lists",
+    "info": {
+        "displayName": "list",
+        "icon": "list-ul"
+    },
+    "options": {},
+    "attributes": {
+        "style": {
+            "type": "enumeration",
+            "enum": [
+                "ordered",
+                "unordered"
+            ]
+        },
+        "items": {
+            "type": "json"
+        }
+    }
+}

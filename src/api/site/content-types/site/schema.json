@@ -40,7 +40,20 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::about.about",
-      "inversedBy": "site"
+      "mappedBy": "site"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "artist",
+        "label"
+      ]
+    },
+    "artist": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::artist.artist",
+      "mappedBy": "site"
     }
   }
 }

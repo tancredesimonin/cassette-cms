@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "level": {
+      "type": "integer"
+    }
+  }
+}

@@ -9,7 +9,6 @@ const SetOwnerConfigSchema = yup.object({
 /**
  * `SetOwner` middleware.
  */
-
  module.exports = (config, { strapi }) => {
   return async (ctx, next) => {
     try {
