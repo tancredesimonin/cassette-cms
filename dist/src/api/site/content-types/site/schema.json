@@ -60,6 +60,12 @@
             "relation": "oneToOne",
             "target": "api::theme.theme",
             "inversedBy": "site"
+        },
+        "homePage": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::home-page.home-page",
+            "inversedBy": "site"
         }
     }
 }

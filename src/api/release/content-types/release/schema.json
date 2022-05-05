@@ -4,7 +4,8 @@
   "info": {
     "singularName": "release",
     "pluralName": "releases",
-    "displayName": "Release"
+    "displayName": "Release",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -19,12 +20,13 @@
       "type": "date"
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "artist": {
       "type": "relation",
@@ -49,6 +51,17 @@
       "relation": "manyToOne",
       "target": "api::label.label",
       "inversedBy": "releases"
+    },
+    "backgroundMedia": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "colorPrimary": {
+      "type": "string"
     }
   }
 }

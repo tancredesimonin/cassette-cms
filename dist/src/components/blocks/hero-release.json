@@ -1,0 +1,34 @@
+{
+    "collectionName": "components_blocks_hero_releases",
+    "info": {
+        "displayName": "Hero Release",
+        "icon": "music",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "release": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::release.release"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": [
+                "fullscreen",
+                "square"
+            ]
+        },
+        "background": {
+            "allowedTypes": [
+                "images",
+                "videos"
+            ],
+            "type": "media",
+            "multiple": false
+        }
+    }
+}

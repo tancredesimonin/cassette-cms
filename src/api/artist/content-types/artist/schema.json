@@ -79,6 +79,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::social-media.social-media"
+    },
+    "homePage": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::home-page.home-page",
+      "inversedBy": "artist"
     }
   }
 }

@@ -4,7 +4,8 @@
     "info": {
         "singularName": "social-media",
         "pluralName": "social-medias",
-        "displayName": "Social Media"
+        "displayName": "Social Media",
+        "description": ""
     },
     "options": {
         "draftAndPublish": false
@@ -26,7 +27,11 @@
                 "youtube",
                 "soundcloud",
                 "beatport",
-                "spotify"
+                "spotify",
+                "pandora",
+                "link-shop",
+                "link-stream",
+                "link-shopstream"
             ]
         }
     }
