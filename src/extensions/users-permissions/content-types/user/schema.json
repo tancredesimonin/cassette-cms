@@ -89,6 +89,12 @@
       "relation": "manyToMany",
       "target": "api::artist.artist",
       "mappedBy": "editors"
+    },
+    "themes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::theme.theme",
+      "mappedBy": "owner"
     }
   }
 }

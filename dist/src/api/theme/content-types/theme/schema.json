@@ -1,0 +1,53 @@
+{
+    "kind": "collectionType",
+    "collectionName": "themes",
+    "info": {
+        "singularName": "theme",
+        "pluralName": "themes",
+        "displayName": "Theme",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": [
+                "template",
+                "custom"
+            ]
+        },
+        "price": {
+            "type": "decimal"
+        },
+        "owner": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "plugin::users-permissions.user",
+            "inversedBy": "themes"
+        },
+        "site": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::site.site",
+            "inversedBy": "theme"
+        },
+        "template": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::theme.theme",
+            "mappedBy": "children"
+        },
+        "children": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::theme.theme",
+            "inversedBy": "template"
+        }
+    }
+}

@@ -54,6 +54,12 @@
       "relation": "oneToOne",
       "target": "api::artist.artist",
       "mappedBy": "site"
+    },
+    "theme": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::theme.theme",
+      "inversedBy": "site"
     }
   }
 }
