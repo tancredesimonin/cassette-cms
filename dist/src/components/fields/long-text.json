@@ -1,0 +1,16 @@
+{
+    "collectionName": "components_fields_long_texts",
+    "info": {
+        "displayName": "longText",
+        "icon": "align-right"
+    },
+    "options": {},
+    "attributes": {
+        "label": {
+            "type": "string"
+        },
+        "value": {
+            "type": "text"
+        }
+    }
+}

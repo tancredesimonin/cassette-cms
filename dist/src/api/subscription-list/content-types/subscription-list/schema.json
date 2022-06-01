@@ -1,0 +1,55 @@
+{
+    "kind": "collectionType",
+    "collectionName": "subscription_lists",
+    "info": {
+        "singularName": "subscription-list",
+        "pluralName": "subscription-lists",
+        "displayName": "SubscriptionList",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {
+        "i18n": {
+            "localized": true
+        }
+    },
+    "attributes": {
+        "title": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "string"
+        },
+        "slug": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "uid",
+            "targetField": "title"
+        },
+        "subscriptions": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::subscription.subscription",
+            "mappedBy": "list"
+        },
+        "fields": {
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "type": "dynamiczone",
+            "components": [
+                "fields.long-text",
+                "fields.text"
+            ]
+        }
+    }
+}

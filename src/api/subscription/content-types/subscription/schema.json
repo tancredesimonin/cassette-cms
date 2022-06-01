@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscriptions",
+  "info": {
+    "singularName": "subscription",
+    "pluralName": "subscriptions",
+    "displayName": "Subscription",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::contact.contact",
+      "inversedBy": "subscriptions"
+    },
+    "list": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::subscription-list.subscription-list",
+      "inversedBy": "subscriptions"
+    },
+    "fields": {
+      "type": "dynamiczone",
+      "components": [
+        "fields.text",
+        "fields.long-text"
+      ]
+    }
+  }
+}

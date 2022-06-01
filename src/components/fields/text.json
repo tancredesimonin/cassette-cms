@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_fields_texts",
+  "info": {
+    "displayName": "text",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}
